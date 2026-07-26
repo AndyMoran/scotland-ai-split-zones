@@ -779,7 +779,7 @@ Outputs:
 ## 21. Setup
 
 ```bash
-git clone <your-repo-url>
+git clone (https://github.com/AndyMoran/scotland-ai-split-zones/)
 cd scotland-ai-split-zones
 uv sync
 ```
