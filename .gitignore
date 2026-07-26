@@ -1,0 +1,16 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore large raw data files if they exceed GitHub's 100MB limit
+# data/raw/*.csv 
+# data/raw/*.parquet

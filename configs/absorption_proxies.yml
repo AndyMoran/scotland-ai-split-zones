@@ -1,0 +1,12 @@
+# MVP Physical Proxies for Renewable Absorption
+# Monetary values are strictly excluded until curtailment_value_proxy.yml is pinned.
+
+site_connection_capacity_proxy:
+  description: "Upper bound on absorbable AI load based on planning/connection capacity."
+  method: "use_site_capacity_mw" # In MVP, we use the renewable project's own capacity as a proxy for local grid headroom.
+
+curtailment_availability_factor:
+  description: "Proxy for the fraction of time curtailed renewable energy is actually available to be absorbed during constraint events."
+  value: 0.5 
+  source: "MVP heuristic - to be replaced with NESO Day Ahead Constraint Flows empirical data in Stage 2"
+  notes: "Represents the probability that a grid constraint event coincides with renewable generation."

@@ -1,0 +1,29 @@
+# Data contract for empirical ground truth (Stage A)
+# No notebook should run until source vintages are pinned.
+
+constraint_zones:
+  description: "Scottish transmission constraint zones and boundary classifications"
+  candidate_sources:
+    - "NESO Day Ahead Constraint Flows and Limits"
+  required_fields:
+    - zone_id
+    - zone_name
+    - boundary
+    - constraint_direction
+    - source_vintage
+  status: "to_verify"
+
+candidate_sites:
+  description: "Named site planning and development applications"
+  candidate_sources:
+    - "North Lanarkshire planning portal"
+    - "REPD (Renewable Energy Planning Database)"
+  required_fields:
+    - site_id
+    - site_name
+    - developer
+    - capacity_mw
+    - latitude
+    - longitude
+    - planning_status
+  status: "to_verify"

@@ -1,0 +1,35 @@
+# Workload flexibility and technological velocity assumptions
+# All assumptions are config-driven. No magic numbers in notebooks.
+
+real_time_inference:
+  flexibility: low
+  assumption: "must run when requested"
+  shift_window_hours: 0
+
+batch_inference:
+  flexibility: medium
+  assumption: "can be queued or delayed"
+  shift_window_hours: [1, 2, 4]
+
+training_jobs:
+  flexibility: medium_high
+  assumption: "schedulable at job start/stop level"
+  schedulable_fraction: [0.0, 0.1, 0.3, 0.5] # Added 0.0 for baseline
+  notice_required_hours: [4, 12, 24]
+
+active_training_runs:
+  flexibility: low_medium
+  assumption: "not freely interruptible mid-run"
+  checkpoint_interruptibility: false_in_baseline
+
+duration_compatibility:
+  method: "soft_ratio"
+  formula: "min(1, event_duration_hours / minimum_scheduling_notice_hours)"
+  hard_gate_available: true
+
+compute_velocity_risk:
+  description: "Sensitivity for algorithmic efficiency gains reducing MW demand over the grid asset lifetime."
+  baseline_mw_multiplier: 1.0
+  stress_test_mw_multiplier: 0.5
+  horizon_years: 5
+  mechanism: "Algorithmic efficiency reduces the MW required per FLOP, lowering the residual grid burden over time."

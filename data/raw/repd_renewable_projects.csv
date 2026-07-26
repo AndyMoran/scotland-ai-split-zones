@@ -1,0 +1,10 @@
+planning_reference,site_name,developer,capacity_mw,latitude,longitude,planning_status
+REF-001,Whitelee Wind Farm,ScottishPower Renewables,539.0,55.6833,-3.8167,Operational
+REF-002,Beatrice Offshore Wind Farm,Beatrice Offshore Windfarm Ltd,588.0,58.0167,-2.0833,Operational
+REF-003,Viking Wind Farm,SSE Renewables,443.0,60.3167,-1.1833,Operational
+REF-004,Clyde Wind Farm,ScottishPower Renewables,525.0,55.5167,-3.6333,Operational
+REF-005,Black Law Wind Farm,Black Law Wind Farm Ltd,96.8,55.6667,-3.7833,Operational
+REF-006,Glendoe Hydro,Glendoe Hydro Ltd,100.0,57.1167,-4.4167,Operational
+REF-007,Farr Wind Farm,RES,112.0,58.5167,-3.5167,Operational
+REF-008,Scoraig Wind Farm,Community,0.2,57.7167,-5.3833,Operational
+REF-009,North Lanarkshire AI Campus,DataCo,500.0,55.8167,-3.9833,Planned
