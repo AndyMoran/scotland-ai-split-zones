@@ -1,7 +1,7 @@
 # POLICY BRIEF: Auditing AI "Flexibility" in Scottish Planning Applications
 
 **To:** Scottish Government (Net Zero & Energy Directorate), Local Planning Authorities, NESO  
-**From:** [Your Name/Organization], Scotland AI Split-Zones Framework  
+**From:** Andy Graham Moran (Heaviside Analytics), Scotland AI Split-Zones Framework  
 **Subject:** Preventing "Math-Washing" in Hyperscale Data Centre Grid Connection Claims  
 
 ## 1. The Problem: The "Flexibility" Illusion
@@ -39,8 +39,6 @@ To protect Scotland's Net Zero targets and prevent stranded grid assets, we reco
 
 ## 4. Conclusion
 AI compute is not inherently a grid liability, but its flexibility is a function of time, not just arithmetic. By auditing the physical reality of IT checkpointing timescales, Scottish planners can ensure AI Growth Zones become genuine grid assets, not costly bottlenecks.
-
-cat >> adversarial_review_kit/05_Policy_Brief.md << 'EOF'
 
 ## 5. Scope and Limitations
 This analysis focuses on **workload flexibility as a standalone grid service**. We acknowledge that co-located battery storage could partially mitigate the timescale mismatch by bridging the gap between fast grid events and slow IT checkpointing. However, storage introduces its own economic constraints (capital cost, degradation, round-trip efficiency losses) and does not eliminate the fundamental physics of the timescale mismatch—it merely shifts the cost. Modelling the interaction between workload flexibility and co-located storage is planned for Stage 3 of this framework.
