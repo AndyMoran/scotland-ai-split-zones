@@ -63,3 +63,9 @@ This repository is structured to separate the *invitation* from the *specificati
 ---
 
 ## Quick Start
+
+bash
+git clone https://github.com/AndyMoran/scotland-ai-split-zones.git
+cd scotland-ai-split-zones
+uv sync
+uv run jupyter lab
