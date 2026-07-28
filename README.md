@@ -69,3 +69,11 @@ git clone https://github.com/AndyMoran/scotland-ai-split-zones.git
 cd scotland-ai-split-zones
 uv sync
 uv run jupyter lab
+
+
+---
+
+## Licence
+
+- Code: MIT License
+- Documentation: CC BY 4.0
