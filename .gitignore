@@ -12,5 +12,5 @@ __pycache__/
 Thumbs.db
 
 # Optional: Ignore large raw data files if they exceed GitHub's 100MB limit
-# data/raw/*.csv 
-# data/raw/*.parquet
+data/raw/*.csv 
+data/raw/*.parquet

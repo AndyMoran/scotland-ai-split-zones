@@ -1,0 +1,45 @@
+{
+  "Thermal Constraint Costs 23-24": {
+    "groups": [
+      "ESTEX",
+      "SCOTEX",
+      "SEIMP",
+      "SSE-SP",
+      "SSHARN",
+      "SWALEX"
+    ],
+    "matches": {
+      "SCOTEX": true,
+      "SSEN-S": false,
+      "SSEN S": false,
+      "SSE-N": false,
+      "B6": false,
+      "B2": false,
+      "SSEN": false,
+      "SSHARN": true
+    }
+  },
+  "Day Ahead Constraint Flows and Limits": {
+    "groups": [
+      "ESTEX",
+      "FLOWSTH",
+      "GALLEX",
+      "SCOTEX",
+      "SEIMP",
+      "SHARN",
+      "SSE-SP",
+      "SSEN-S",
+      "SWALEX"
+    ],
+    "matches": {
+      "SCOTEX": true,
+      "SSEN-S": true,
+      "SSEN S": false,
+      "SSE-N": false,
+      "B6": false,
+      "B2": false,
+      "SSEN": true,
+      "SSHARN": false
+    }
+  }
+}

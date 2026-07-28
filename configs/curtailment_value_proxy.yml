@@ -1,0 +1,23 @@
+curtailment_value_proxy:
+  source_name: "NESO Constraint Breakdown 2023-24 & Thermal Constraint Costs"
+  publication_year: 2024
+  geography: "Great Britain (system-wide), applied to Scottish boundaries"
+  boundary_or_zone: "SCOTEX (B6), SSE-SP, SSHARN"
+  value_gbp_per_mwh: 164.89
+  value_type: "GB-wide average thermal constraint cost, applied to Scottish volumes via cost-proportion allocation"
+  methodology: |
+    Cost-proportion allocation: Total GB Thermal Constraint Cost (£1,039.6M) / Total GB Thermal 
+    Constraint Volume (6.30 TWh) = £164.89/MWh. This GB-wide average is then applied to Scotland's 
+    estimated constraint volumes. 
+    
+    IMPORTANT: This method mathematically yields the GB average £/MWh when applied to Scottish 
+    volumes — it does not measure Scotland's specific constraint cost per MWh, which may differ 
+    due to different unit types (e.g., wind turn-down vs thermal turn-up) and bid/offer structures.
+  scottish_thermal_constraint_volume_twh: 3.01
+  scottish_theoretical_ceiling_gbp_millions: 495.7
+  notes: |
+    Supersedes previous £3.25/MWh figure (which was derived from summing day-ahead forecast 
+    differentials — a methodological error). Current figure uses outturn system-wide accounting 
+    with cost-proportion allocation, which is auditable and physically plausible. See PROJECT.md 
+    Section 15b for full methodology.
+  pinned_timestamp: "2026-07-28"

@@ -80,6 +80,46 @@ Monte Carlo is used where uncertainty is real (the realistic hybrid scenario).
 *   **Rule:** Simple vectorized Monte Carlo (e.g., NumPy) is the primary uncertainty framework. Do not use MCMC unless solving a complex Bayesian inverse problem. 
 *   **Output:** Always calculate and report the **P10, P50, and P90** distributional forms, not just point estimates.
 
+## Analytical Principles: Feynman Approaches
+
+This project applies Richard Feynman's analytical methods to energy policy and AI infrastructure modelling. These principles guide every stage of the framework:
+
+### 1. "The first principle is that you must not fool yourself—and you are the easiest person to fool."
+**Application:** We built an adversarial review process specifically to catch our own blind spots. Every assumption is documented, every number is traceable, and we explicitly invite external reviewers to falsify our findings. The "Timescale Mismatch Trap" only has credibility because we subjected it to rigorous pre-publication scrutiny.
+
+### 2. "What I cannot create, I do not understand."
+**Application:** We don't just cite "50% flexibility" claims—we built the entire physical model from first principles to understand what that number actually means. The model forces us to confront the physics: checkpointing times, grid event durations, schedulable fractions. If we can't build it, we can't claim to understand it.
+
+### 3. "Knowing the name of something is not the same as knowing something."
+**Application:** We don't just label AI workloads as "flexible"—we decompose that flexibility into physical mechanisms: How long does checkpointing take? What's the orchestration overhead? What's the restart verification time? The name "flexibility" is meaningless without the underlying physics.
+
+### 4. "For a successful technology, reality must take precedence over public relations, for nature cannot be fooled."
+**Application:** Data centre developers can claim "50% flexibility" in press releases, but the grid doesn't care about PR. If the IT checkpointing timescale exceeds the grid event duration, the flexibility doesn't materialise. Nature (physics) cannot be fooled by marketing. Our model exposes this gap between claim and reality.
+
+### 5. "I would rather have questions that can't be answered than answers that can't be questioned."
+**Application:** We explicitly state what we don't know: the 12-hour IT notice is a "conservative engineering estimate" not yet decomposed per-stage; the 50% curtailment proxy is UK-wide, not Scottish-specific; battery storage interactions are deferred to Stage 3. These open questions are more valuable than false certainty.
+
+### 6. "The Feynman Technique": Explain it simply.
+**Application:** Every chart, policy brief, and LinkedIn post is written in plain English. The "sprint vs marathon" analogy makes the timescale mismatch intuitive to non-technical readers. If we can't explain it to a planner or policymaker in one breath, we don't understand it well enough to model it.
+
+### 7. "Shut up and calculate."
+**Application:** Sometimes the best response to a complex policy debate is to just run the numbers. The adversarial review kit's stress test script does exactly this: it loads the data, runs the calculation, and prints the result. No hand-waving, no opinion—just the math.
+
+### 8. Distinguish between "map" and "territory."
+**Application:** Our model is a map, not the territory. The 50% curtailment proxy is a first-order approximation, not a perfect representation of Scottish constraint events. Stage 2 replaces the map with better data. We never confuse the model with reality—we use the model to understand where reality is different from our assumptions.
+
+---
+
+**How these principles shape the project:**
+- Every assumption is documented and falsifiable
+- Every number is traceable to a physical mechanism or data source
+- Every limitation is stated upfront, not hidden
+- Every claim is scoped honestly (worst-case stress test, not "realistic")
+- Every generalisation is hedged appropriately
+- Every model output is checked against independent reality
+
+This is not just a technical framework—it's a discipline of thought.
+
 ---
 
 # Part 4 — Engineering & Programming Discipline
@@ -248,5 +288,251 @@ Do not let the model become clever before the mechanism becomes clear.
 The project order is:Physics → Event Register → Mechanism → Scenario Model → Sensitivity → Monte Carlo → Policy Lever → Caveat
 
 **The Final Project Loop:**
-```text
+
 Model result → discomfort → mechanism → sensitivity → policy lever → caveat
+
+---
+
+# Part 8 — Current Project Application: Scotland AI Split-Zones (Stage 2)
+
+This section applies the Manifesto's principles to the immediate next phase of the Scotland AI Split-Zones project: replacing the conservative 50% curtailment proxy with empirical NESO constraint data.
+
+## Stage 2 Milestones: The Scottish Reality Upgrade
+
+### Milestone 2.1: Reconciliation Spike (In Progress)
+*Applies: Mechanism Before Model, Fail Loudly, Configuration Not Magic Numbers*
+- [ ] Identify correct CKAN resource ID for NESO Constraint Breakdown dataset.
+- [ ] Pull one sample year of data and verify schema.
+- [ ] Confirm boundary column presence and distinct `SCOTEX` / `SSEN-S` values.
+- [ ] Check for the 22 April 2024 methodology break and flag if data is non-comparable.
+- [ ] Sanity-check Thermal-category volume magnitude against independent published reports.
+- [ ] **Decision Gate:** If data is a system-wide aggregate with no boundary breakdown, halt pipeline construction and initiate Milestone 2.1b (BOALF join).
+
+### Milestone 2.2: Scottish Event Profiler
+*Applies: Temporal & Distributional Analysis, Translate to Physical Units*
+- [ ] Calculate actual average duration of Scottish export constraint events.
+- [ ] Replace UK-wide statistics ("68% <4 hours") with Scottish-specific, boundary-level data.
+- [ ] Update policy briefs with empirically grounded duration distributions.
+
+### Milestone 2.3: IT Notice Decomposition
+*Applies: Physics Before Economics, Ambiguity Is Informative*
+- [ ] Research per-stage checkpointing times from hyperscaler documentation (Azure, Google, etc.).
+- [ ] Update `configs/workload_flexibility_assumptions.yml` with a structured, multi-stage notice model.
+- [ ] Replace the current "conservative engineering estimate" with a decomposed, evidence-based breakdown (e.g., checkpoint + orchestration + protocol + verification + safety margin).
+
+### Milestone 2.4: Economic Layer
+*Applies: Traceability Mandate, Translate to Physical Units*
+- [ ] Pin constraint cost proxy (£/MWh) from official NESO publications.
+- [ ] Calculate the annual financial cost of the timescale mismatch for Scottish consumers.
+- [ ] Update policy outputs to show both the physical MW loss and the financial £ impact.
+
+## Stage 2 Explicit Guardrails
+1. **No building before data contracts are defined.** The ingestion pipeline will not be written until the Reconciliation Spike confirms the schema.
+2. **Precise NESO terminology only.** Target boundaries are `SCOTEX` (B6) and `SSEN-S` (B2). Asset names (e.g., "Caithness-Moray") are for commentary only, not query keys.
+3. **NKILGRMO is explicitly excluded** due to poor tracking of its notional boundary. This is a documented design choice, not a silent omission.
+
+## Part 9 - Project Specification
+
+## 1. What this project is / is not
+
+### This project is
+
+A constraint-direction siting framework for AI compute in Scotland.
+
+It asks whether different AI workloads should be separated into training, inference, batch and edge categories, then sited according to grid function:
+
+- flexible training near renewable-surplus, export-constrained zones;
+- latency-sensitive inference near users, fibre and public-service demand;
+- batch inference where limited scheduling flexibility can reduce system stress;
+- tenant-safe VPPs as event-time support layers, not baseload substitutes.
+
+### This project is not
+
+- It is not a claim that domestic VPPs can power hyperscale data centres.
+- It is not a generic "green data centre" pitch.
+- It is not a vendor-specific Tesla, Powerwall or Autobidder study.
+- It is not an assumption that AI training jobs can be interrupted every settlement period.
+- It is not an argument that AI load "solves" transmission constraints. In export-constrained zones, the constraint remains; flexible demand may reduce curtailment and economic waste by consuming renewable power that the grid cannot otherwise move.
+- It is not a bet on static compute intensity. It explicitly accounts for technological velocity risk: algorithmic efficiency gains (e.g., Mixture-of-Experts, FP8 quantization, architectural light-weighting) can slash MW demand faster than 20-year grid assets depreciate.
+
+## 2. Workload split
+
+The project distinguishes AI workloads by their grid behaviour.
+
+| Workload type | Grid behaviour | Likely siting logic | Baseline flexibility assumption |
+|---|---|---|---|
+| Large-model training | High power demand; long-running; potentially schedulable at job level | Renewable-rich/export-constrained zones | Schedulable at start/stop level, not freely interruptible |
+| Real-time inference | Latency-sensitive; service-level driven | Lowlands, fibre routes, users, public services | Mostly inflexible |
+| Batch inference | Queueable; partly shiftable | Could follow grid-aware scheduling | Shiftable within limited window |
+| Edge AI | Smaller, localised, service-specific | Near operational need | Case-specific |
+
+## 3. Site typology
+
+| Site type | Grid condition | Best AI workload | Main metric |
+|---|---|---|---|
+| Export-constrained renewable-surplus zone | Local generation exceeds export capability | Flexible training | Avoided curtailment / renewable absorption |
+| Import-constrained Lowlands site | New demand may worsen local grid stress | Inference / smaller clusters | Residual grid burden |
+| Balanced industrial zone | Some grid access, but strategic load still matters | Mixed compute | Net grid impact |
+| VPP-rich community zone | Distributed flexibility available | Inference / support services | Event-time flexibility support |
+
+## 4. Policy questions
+
+The project is about strategic demand connection design, not just data centres.
+
+**Questions for policy:**
+
+- Should Scotland distinguish between AI training and inference in planning policy?
+- Should AI Growth Zones be assessed by residual grid burden, not just investment and jobs?
+- Should flexible training load receive faster connection where it absorbs curtailed renewables?
+- Should hyperscale Lowlands data centres face stronger tests on power, water and local grid impact?
+- Could verified flexible demand be treated as a constraint-management asset?
+- Should data-centre developers be required to show workload flexibility and grid-response capability?
+- Can tenant-safe VPP support be accredited as part of strategic demand connection planning?
+- Should public benefit tests include heat reuse, community value, water stewardship and local energy impact?
+- Should data centre connection agreements in import-constrained zones require phased, non-firm, or flexible connections to protect ratepayers from stranded network asset risk?
+- How should Scottish planning policy balance the risk of speculative queue-hoarding against genuine, flexible renewable-absorption demand?
+
+**Challenging questions the framework does not resolve:**
+- Should Scotland be cautious about overbuilding AI training capacity that may become obsolete within 5–10 years, given the pace of algorithmic efficiency gains (Mixture-of-Experts, FP8 quantization, architectural light-weighting)?
+- Could diverting AI training to remote export-constrained sites undermine Scotland's AI services economy, which benefits from proximity to users, universities, and enterprise demand in the Central Belt?
+- Are there better uses for curtailed renewable energy than AI training (e.g., green hydrogen production, industrial electrification, grid-scale storage) that deliver more durable economic or decarbonisation value per MWh?
+- If flexible AI training proves economically unviable due to operator friction costs, should export-constrained zones instead pursue direct renewable-to-industry connections (e.g., data centres co-located with wind farms via private wire) rather than relying on Balancing Mechanism dispatch?
+
+## 5. Definition of Done
+
+### Stage 1 MVP ✅ COMPLETE
+- [x] `configs/data_sources.yml` populated and source vintages recorded
+- [x] Candidate Scottish AI sites classified by constraint direction
+- [x] Workload assumptions config-driven and validated
+- [x] Duration Compatibility Factor implemented
+- [x] Import-constrained residual grid burden calculated
+- [x] Export-constrained renewable absorption calculated using `site_connection_capacity_mw`
+- [x] No monetary curtailment result published without pinned value proxy
+- [x] Site scorecard reproducible from clean execution
+- [x] All core assumptions visible in config files
+- [x] README and PROJECT.md state what the model does **not** prove
+
+### Stage 2: Scottish Reality Upgrade ✅ COMPLETE
+- [x] Empirical constraint event register built and duration distributions calculated (SCOTEX median: 2.0h, SSEN-S median: 1.5h)
+- [x] IT notice period decomposed into per-stage components (~0.93h total, hyperscaler lower bound)
+- [x] Duration Compatibility Factor updated to 1.0 for median events
+- [x] Defensible constraint volume proxy calculated (3.01 TWh for Scotland via cost-proportion method)
+- [x] Empirical constraint cost proxy pinned (£164.89/MWh average)
+- [x] Theoretical maximum addressable market identified (£495.7M/year)
+- [x] AI-side friction costs and symmetric stranded-asset risks explicitly documented
+- [x] Tufte-compliant visualizations produced (4 figures)
+- [x] README updated with empirical findings and strict caveats
+
+### Stage 3: Battery Storage Interaction (Planned)
+- [ ] Model co-located battery storage dispatch
+- [ ] Evaluate IT checkpointing + battery hybrid strategies
+- [ ] Quantify additional flexibility from storage-backed AI sites
+
+## 6. Notebook plan
+
+### Notebook 01 — `01_site_register_and_typology.ipynb`
+
+Purpose:
+
+- build candidate site register;
+- classify site by constraint direction;
+- assign candidate workload suitability;
+- produce initial Scotland site typology.
+
+Outputs:
+
+- `candidate_site_register.parquet`;
+- `site_typology_summary.csv`;
+- `figures/scotland_site_typology_map.png`.
+
+### Notebook 02 — `02_workload_response_curves.ipynb`
+
+Purpose:
+
+- read `workload_flexibility_assumptions.yml`;
+- generate flexible-load response curves;
+- compare schedulable fractions;
+- compare notice periods;
+- compare event durations.
+
+Outputs:
+
+- `outputs/workload_response_sensitivity.csv`;
+- `figures/workload_response_by_notice_period.png`.
+
+### Notebook 03 — `03_residual_grid_burden_model.ipynb`
+
+Purpose:
+
+- evaluate import-dependent sites;
+- calculate residual grid burden under workload/VPP/storage assumptions;
+- test sensitivity to load size and flexibility assumptions.
+
+Outputs:
+
+- `outputs/residual_grid_burden_by_site.csv`;
+- `figures/residual_grid_burden_chart.png`.
+
+### Notebook 04 — `04_renewable_absorption_model.ipynb`
+
+Purpose:
+
+- evaluate export-constrained renewable-surplus sites;
+- estimate absorbable curtailed renewable energy;
+- apply site connection capacity proxy;
+- defer monetary value until curtailment proxy is pinned.
+
+Outputs:
+
+- `outputs/renewable_absorption_by_site.csv`;
+- `figures/renewable_absorption_potential.png`.
+
+### Notebook 05 — `05_site_scorecard.ipynb`
+
+Purpose:
+
+- combine site typology, workload suitability, grid burden and absorption metrics;
+- produce public-facing site scorecard;
+- identify candidate sites for Stage 2 modelling.
+
+Outputs:
+
+- `outputs/site_scorecard.csv`;
+- `figures/site_scorecard.png`.
+
+## 7. References and source anchors
+
+The project specification is designed around public, auditable sources. Source URLs should be pinned in `configs/data_sources.yml` before analysis.
+
+Initial source anchors:
+
+- UK Government — AI Growth Zones open for applications: https://www.gov.uk/government/publications/ai-growth-zones/ai-growth-zones-open-for-applications
+- UK Government — Delivering AI Growth Zones: https://www.gov.uk/government/publications/delivering-ai-growth-zones/delivering-ai-growth-zones
+- Scottish Government — Scotland's Artificial Intelligence Strategy 2026-2031: https://www.gov.scot/publications/scotlands-ai-strategy-2026-2031/
+- Scottish Government — AI Strategy Actions: https://www.gov.scot/publications/scotlands-ai-strategy-2026-2031/pages/6/
+- UK Parliament Written Statement HCWS1289 — Lanarkshire AI Growth Zone: https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hcws1289
+- DataVita — Lanarkshire AI Growth Zone FAQs: https://www.datavita.co.uk/lanarkshire-ai-growth-zone/faqs
+- NESO — Local Constraint Market: https://www.neso.energy/industry-information/balancing-services/local-constraint-market
+- NESO — Constraint Management Intertrip Service: https://www.neso.energy/industry-information/balancing-services/network-services/constraint-management-intertrip-service
+- NESO — Day Ahead Constraint Flows and Limits: https://www.neso.energy/data-portal/day-ahead-constraint-flows-and-limits
+- NESO — Connections Reform Results: https://www.neso.energy/industry-information/connections-reform/connections-reform-results
+- Ofgem — Demand Connections Reform: https://www.ofgem.gov.uk/call-for-input/demand-connections-reform
+- DESNZ / data.gov.uk — Renewable Energy Planning Database: https://www.gov.uk/government/publications/renewable-energy-planning-database-quarterly-extract
+- Ofcom — Connected Nations: https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations
+- Williams et al. — Power-Flexible AI Data Centers: https://arxiv.org/abs/2606.25098
+
+## 8 The "Plain English" Translation Guide
+
+Translation matrix by audience
+
+| Audience | Technical Term (Internal/Repo) | Plain English Translation (Public/Policy) |
+| :--- | :--- | :--- |
+| **Grid Engineers / Academics** | Constraint-Direction Computing | "Classifying compute workloads by whether they add to import pressure or absorb export curtailment." |
+| **Government Ministers / Policymakers** | Export-Constrained Renewable Absorption | "Putting flexible AI training where the wind is blowing but the wires are full, turning wasted energy into an economic asset." |
+| **Government Ministers / Policymakers** | Import-Constrained Residual Grid Burden | "Ensuring new AI data centres in the Lowlands don't overload local grids or drive up bills for existing residents and businesses." |
+| **Journalists / General Public** | Duration Compatibility Factor | "Making sure the AI can actually pause and restart fast enough to match how long the grid constraint lasts." |
+| **Journalists / General Public** | AI-Operator Friction Costs | "The real-world cost to an AI company of pausing their servers, which means we can't just assume they will do it for free." |
+| **Community Groups** | Scope Boundary (Water/Fibre excluded) | "This tool looks specifically at the electricity grid. We know that water use, local traffic, and community impact are equally important and must be assessed separately." |
+
+**The Golden Rule for Public Comms:** 
+Always lead with the **problem** (wasted wind power in the North, grid stress in the Lowlands), then introduce the **mechanism** (flexible AI training vs. inflexible inference), and only use the **technical term** ("Constraint-Direction") as a shorthand label *after* the concept is understood.
