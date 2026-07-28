@@ -1,0 +1,25 @@
+Typical AI energy planning uses geography and total MW demand. We found the real unit of analysis isn't the building — it's the workload. We ran the numbers: modern AI training stacks are fast enough to help Scotland's grid, but how much value does that speed actually capture?
+In our open-source "Scotland AI Split-Zones" framework, we classify AI compute by Constraint Direction:
+1️⃣ Import-Constrained: Minimise residual grid burden.
+2️⃣ Export-Constrained: Act as renewable absorption demand.
+This isn't an argument for building everywhere. Flexible training belongs near renewable surplus (e.g., Peterhead, Caithness). Latency-sensitive inference belongs near users and fibre (e.g., the Lowlands).
+Hard-allocating hyperscale campuses to the Lowlands risks a stranded public asset if algorithmic efficiency cuts compute intensity faster than grid infrastructure depreciates. Conversely, Jevons paradox suggests cheaper compute could increase total AI demand, offsetting that risk. We don't know which dominates — a strong argument for flexible, non-firm connection agreements over hard-allocated capacity.
+—
+In Stage 2, we tested the "timescale mismatch" hypothesis against real 2023-24 NESO constraint data for Scotland's export zones.
+The Empirical Reality:
+• Median export constraint events last 1.5–2.0 hours.
+• Modern hyperscaler IT stacks can respond in ~1 hour.
+• Therefore, median events are temporally compatible with flexible AI training.
+• Caveat: Short events (P10, <1 hour) remain physically incompatible with large-scale response.
+Crucial Caveat: Compatibility is NOT Capture.
+Actual flexibility depends on site capacity, commercial dispatch terms, and AI-operator friction costs (e.g., idle GPU amortization, checkpoint overhead).
+Using a cost-proportion allocation method, we estimate:
+• Scotland's thermal constraint volume: ~3.0 TWh/year
+• GB-wide average constraint cost: ~£165/MWh (applied to Scottish volumes as a simplifying assumption)
+• Theoretical upper bound: ~£500M/year (before friction costs and physical incompatibility reduce real-world capture)
+Policy Takeaway:
+Flexible AI training siting is a credible option for renewable-rich zones, provided developers deploy modern orchestration stacks and enter flexible connection agreements. It is not a magic bullet, nor a case for hyperscale build-out wherever land is available.
+Nature cannot be fooled by PR, but it rewards those who do the math — including the math that shows where the model breaks down.
+🔗 Full methodology & reproducible code in the GitHub repo (link in comments).
+¹ Source: NESO Constraint Breakdown 2023-24 & Thermal Constraint Costs
+#EnergyTransition #GridFlexibility #AIInfrastructure #DataCentres #Scotland #PowerSystems #OpenSource
