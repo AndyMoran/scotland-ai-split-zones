@@ -34,7 +34,7 @@ We tested the "timescale mismatch" hypothesis against real NESO constraint data.
 
 - **The Reality:** Median Scottish export constraint events last 1.5–2.0 hours. Modern hyperscaler IT stacks (async checkpointing, automated orchestration) can respond in ~1 hour. Therefore, median events are **temporally compatible** with flexible AI training.
 - **The Caveat ("Compatibility is not capture"):** This does not mean 100% of value is captured. Actual flexibility depends on site connection capacity, commercial dispatch terms, and **AI-operator friction costs** (e.g., idle GPU amortization, checkpoint overhead). 
-- **The Scale:** Using a defensible cost-proportion methodology, the estimated Scottish thermal constraint volume is **~3.0 TWh/year**, with a GB-wide average constraint cost proxy of **~£165/MWh** (applied to Scottish volumes). This represents a theoretical upper bound of **~£500M/year**, though real-world capture will be materially lower due to friction costs and physical incompatibility of short-duration (P10) events.
+- **The Scale:** Using a defensible cost-proportion methodology, the estimated Scottish thermal constraint volume is **~1.76 TWh/year**, with a GB-wide average constraint cost proxy of **~£165/MWh** (applied to Scottish volumes). This represents a theoretical upper bound of **~£290M/year**, though real-world capture will be materially lower due to friction costs and physical incompatibility of short-duration (P10) events.
 
 *For full methodology, data sources, and sensitivity analysis, see [PROJECT.md](PROJECT.md).*
 
