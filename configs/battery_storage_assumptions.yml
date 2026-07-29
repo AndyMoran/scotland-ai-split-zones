@@ -45,3 +45,15 @@
   # (1hr × 50 MW) regardless of event duration. A 26.5h event does not require 
   # 1,325 MWh from the battery — only the first 50 MWh, after which the AI load 
   # has ramped down and the constraint is managed by the paused-AI state.
+
+# SIMPLIFYING ASSUMPTION: Constant Magnitude Response
+# This model assumes every constraint event requires full AI/battery response
+# (100 MW for AI, 50 MW for battery). In reality, events vary in magnitude
+# (Flow - Limit), and per-event capture is bounded by min(response_capacity, magnitude).
+#
+# Note this bound saturates: events with actual magnitude >= 50 MW are UNAFFECTED
+# by this simplification (the battery's marginal capture is already 50 MWh, the
+# true ceiling). Overstatement only occurs for events where magnitude < 50 MW.
+# The scale of the correction is therefore proportional to how many of the 163
+# handoff events fall below that threshold — unquantified pending a rerun against
+# raw Flow-Limit data — not a uniform scaling of the full £0.79M/year figure.
