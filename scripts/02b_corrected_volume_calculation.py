@@ -80,7 +80,12 @@ def fetch_and_calculate_corrected_volume():
         pl.col("Limit (MW)").cast(pl.Float64, strict=False),
         pl.col("Flow (MW)").cast(pl.Float64, strict=False),
     ]).filter(pl.col("timestamp").is_not_null())
-    
+    # 🔥 CRITICAL FIX: Filter STRICTLY to historical 2023 and 2024 data
+    # This removes all future Day-Ahead forecast artifacts (2025-2026)
+    df = df.filter(
+        pl.col("timestamp").dt.year().is_in([2023, 2024])
+    )
+    print(f"  ✅ Filtered to 2023-2024 historical data: {len(df)} rows remaining.")
     print(f"Rows after timestamp parsing: {len(df):,}")
     
     # Calculate the differential for ALL rows (for comparison)
