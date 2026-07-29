@@ -39,7 +39,7 @@ We tested the "timescale mismatch" hypothesis—the industry assumption that AI 
 Median Scottish export constraint events last 1.5 to 2.0 hours. Modern hyperscaler IT infrastructure (using asynchronous checkpointing and automated orchestration) can pause and restart in approximately 1 hour. Therefore, modern AI training is temporally compatible with grid constraint events.
 
 **Finding 2:** The Scale of the Opportunity
-Using a cost-proportion allocation of NESO’s outturn thermal constraint data (strictly filtered for 2023-2024 historical periods), we estimate Scotland’s annual constraint volume at ~1.76 TWh/year. This represents a **theoretical upper bound of ~£290M per year** in avoided constraint costs if flexible AI were perfectly dispatched to absorb these events.
+Using a cost-proportion allocation of NESO’s outturn thermal constraint data (strictly filtered for 2023-2024 historical periods), we estimate Scotland’s annual constraint volume at ~1.76 TWh/year. This represents a **theoretical upper bound of ~£290M per year in avoided constraint costs if flexible AI were perfectly dispatched to absorb these events.
 
 **Finding 3:** Compatibility is NOT Capture
 The £500M figure is a theoretical ceiling, not guaranteed revenue. Real-world capture is materially lower due to:
