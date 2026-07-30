@@ -25,55 +25,63 @@ This framework bifurcates AI siting into two distinct grid cases:
 
 ---
 
-## The Scottish Case Study
+## Framework Evolution: Stages 1–5
 
 While the constraint-direction framework is globally applicable, Scotland serves as the empirical testbed. It uniquely combines significant renewable curtailment, distinct transmission boundaries (SCOTEX, SSEN-S), and an active AI Growth Zone policy. 
 
-### Stage 2 Empirical Findings (2023-24 Data)
-We tested the "timescale mismatch" hypothesis against real NESO constraint data. 
+- **Stage 1: Constraint Direction Thesis** – Bifurcating AI siting into import-constrained and export-constrained zones to align workload flexibility with local grid physics.
+- **Stage 2: Empirical Timescale Mismatch** – Corrected synthetic data contamination to establish a verified ~1.76 TWh/year Scottish constraint volume (~£291M theoretical upper bound). Proved median events are temporally compatible with AI (~1hr checkpointing), but short-duration (P10) events are not.
+- **Stage 3: Battery Sizing & Economic Limits** – Defended the 2-hour battery spec using empirical event-clustering data. Proved that constraint avoidance alone yields a 31.5-year simple payback, making multi-revenue merchant stacking an absolute necessity.
+- **Stage 4: Grounded Merchant Stacking** – Replaced "sum-of-parts" financial assumptions with observed Modo Energy blended benchmarks (£41k–£73k/MW/year). Forced explicit declaration of the AI constraint commercial mechanism, revealing a realistic 8.6–18.7 year payback depending on market conditions and contract structures.
+- **Stage 5: Behind-the-Meter Structural Limits** – Sourced real SSEN SHEPD tariffs to prove DUoS peak-shaving value is structurally limited at hyperscale voltages (£1.58/MWh differential). Identified the TNUoS ASC Band Step as the dominant (£1.8M/yr) but contingent value driver, while wholesale peak-shaving is capped by load/price overlap.
 
-- **The Reality:** Median Scottish export constraint events last 1.5–2.0 hours. Modern hyperscaler IT stacks (async checkpointing, automated orchestration) can respond in ~1 hour. Therefore, median events are **temporally compatible** with flexible AI training.
-- **The Caveat ("Compatibility is not capture"):** This does not mean 100% of value is captured. Actual flexibility depends on site connection capacity, commercial dispatch terms, and **AI-operator friction costs** (e.g., idle GPU amortization, checkpoint overhead). 
-- The Scale: Using a defensible cost-proportion methodology, the verified historical Scottish thermal constraint volume (2023-2024) is (1.76 TWh/year). With a GB-wide average constraint cost proxy of ~£165/MWh, this represents a theoretical upper bound of ~£290M/year. Real-world capture will be materially lower due to friction costs and the physical incompatibility of short-duration (P10) events.
-
-*For full methodology, data sources, and sensitivity analysis, see: (PROJECT.md).*
+*For full methodology, data sources, sensitivity analysis, and the complete adversarial review log, see: `PROJECT.md` and `docs/adversarial_review_log.md`.*
 
 ---
 
-## Scope Boundary
+## Scope Boundary & Modelling Discipline
 
 This is a grid-constraint framework, not a comprehensive siting model. It explicitly **does not** model:
-- Water stress or cooling availability (mentioned only as a critical external constraint).
-- Community acceptance, planning risk, or fibre connectivity (flagged as policy considerations, not scored variables).
-- Co-located battery storage interactions (deferred to Stage 3).
+- Water stress, cooling availability, or fibre connectivity (flagged as critical external constraints, not scored variables).
+- Community acceptance or local planning risk.
+
+Furthermore, this framework enforces strict **modelling discipline** to prevent "finance-bro" double-counting:
+- **No Sum-of-Parts Fantasy:** Baseline revenues use observed, blended market actuals, not theoretical maximums of stacked products.
+- **Behavioural Separation:** Behind-the-meter savings are explicitly separated into *continuous* (DUoS), *step-function* (TNUoS ASC Band Step), and *partial residual* mechanisms. They are never blended into a single misleading total.
+- **Explicit Omissions:** Known costs (e.g., augmentation CAPEX) and synthetic inputs (e.g., illustrative price shapes) are explicitly flagged in the Assumptions Ledger of every synthesis script.
 
 ---
 
 ## Repository Structure
 
-This repository is structured to separate the *invitation* from the *specification*.
+This repository is structured to separate the *invitation* from the *specification*, prioritising radical transparency.
 
 - **`README.md`**: High-level conceptual overview and empirical summary.
 - **`PROJECT.md`**: Detailed project specification, data contracts, methodology, and policy questions.
-- **`configs/`**: Reproducible, version-controlled assumptions (e.g., `workload_flexibility_assumptions.yml`, `curtailment_value_proxy.yml`).
-- **`notebooks/`**: Executable analytical workflows (site typology, workload response, grid burden, renewable absorption).
-- **`src/ai_split_zones/`**: Reusable Python/Polars logic.
-- **`figures/`**: Tufte-compliant visualisations of Stage 2 results.
+- **`docs/adversarial_review_log.md`**: A transparent, living log of all data corrections, stress-tests, and modelling choices (e.g., the Stage 2 synthetic data correction, Stage 4 augmentation CAPEX omission).
+- **`configs/`**: Reproducible, version-controlled assumptions (e.g., `battery_storage_assumptions.yml`).
+- **`scripts/`**: Core Python/Polars logic for data processing, event clustering, and economic synthesis (Stages 2–5).
+- **`notebooks/`**: Executable analytical workflows and publication-ready visualizations (e.g., `06_hybrid_ai_battery_response.ipynb`, `08_stage4_merchant_stacking_synthesis.ipynb`, `09_stage5_behind_the_meter_synthesis.ipynb`).
+- **`figures/`**: Tufte-compliant visualisations of empirical findings, economic verdicts, and value stack breakdowns.
 
 ---
 
 ## Quick Start
 
-bash
+```bash
 git clone https://github.com/AndyMoran/scotland-ai-split-zones.git
 cd scotland-ai-split-zones
 uv sync
 uv run jupyter lab
 
+To run the final economic synthesis and view the assumptions ledger:
 
----
+uv run python scripts/10_stage4_merchant_stacking_synthesis.py
+uv run python scripts/11_stage5_behind_the_meter_synthesis.py
 
 ## Licence
+Code: MIT License
+Documentation & Data: CC BY 4.0
 
-- Code: MIT License
-- Documentation: CC BY 4.0
+This framework is provided as an open-source public good to elevate the standard of evidence in AI infrastructure planning.
+
