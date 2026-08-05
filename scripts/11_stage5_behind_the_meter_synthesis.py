@@ -122,13 +122,25 @@ print(f"  Status: {tnuos_loc_result.evidence_status}")
 # 3. Calculate Wholesale Peak Shaving
 print("\n[3] WHOLESALE PEAK SHAVING")
 print("-" * 80)
-# Find the top 6 price periods
 top_prices = get_peak_troughs(price_profile, n=6)
-# Calculate value if battery discharges 50MW during these 6 periods (3 hours total = 150 MWh)
-wholesale_saving = sum(p.price_gbp_per_mwh * BATTERY_MW * 0.5 for p in top_prices)
-print(f"• Wholesale Peak Shaving (Top 6 periods @ 50MW): £{wholesale_saving:,.0f}/year")
-print("  Status: ILLUSTRATIVE — based on synthetic price shape, not real BMRS/EPEX settlement data.")
-print("  Note: Actual value depends entirely on the overlap between AI load peaks and price peaks.")
+wholesale_saving_per_day = sum(p.price_gbp_per_mwh * BATTERY_MW * 0.5 for p in top_prices)
+print(f"{'Wholesale Peak Shaving (per day)':<45} | £{wholesale_saving_per_day:>12,.0f} | per-day (illustrative)")
+print("-" * 80)
+
+# --- NEW: annualised BTM total, excluding un-annualised wholesale ---
+duos_saving = annual_duos_saving  # alias so the snippet reads cleanly
+total_btm_annual = (
+    duos_saving
+    + tnuos_asc_result.annual_saving_gbp
+    + tnuos_loc_result.annual_saving_gbp
+)
+
+print(f"{'TOTAL BTM (annual, excl. wholesale)':<45} | £{total_btm_annual:>12,.0f} | (see caveat)")
+print(f"{'  of which continuous (DUoS + residual)':<45} | £{duos_saving + tnuos_loc_result.annual_saving_gbp:>12,.0f} | continuous")
+print(f"{'  of which step-function (ASC Band Step)':<45} | £{tnuos_asc_result.annual_saving_gbp:>12,.0f} | contingent")
+print("-" * 80)
+print(f"{'Wholesale (per-day, NOT annualised)':<45} | £{wholesale_saving_per_day:>12,.0f} | illustrative only")
+print("=" * 80)
 
 # 4. Synthesis & Summary
 print("\n[4] BEHIND-THE-METER VALUE SYNTHESIS")
@@ -137,15 +149,20 @@ print("=" * 80)
 network_lines = [duos_result, tnuos_asc_result, tnuos_loc_result]
 network_summary = summarise_network_stack(network_lines)
 
+# Use the correctly computed annual total (which excludes un-annualised wholesale)
+total_btm_annual = network_summary["total_annual_gbp"]
+
 print(f"{'Mechanism':<45} | {'Annual Saving':<15} | {'Behaviour'}")
 print("-" * 80)
 print(f"{duos_result.name:<45} | £{duos_result.annual_saving_gbp:>12,.0f} | {duos_result.behaviour.value}")
 print(f"{tnuos_asc_result.name:<45} | £{tnuos_asc_result.annual_saving_gbp:>12,.0f} | {tnuos_asc_result.behaviour.value}")
 print(f"{tnuos_loc_result.name:<45} | £{tnuos_loc_result.annual_saving_gbp:>12,.0f} | {tnuos_loc_result.behaviour.value}")
-print(f"{'Wholesale Peak Shaving':<45} | £{wholesale_saving:>12,.0f} | continuous (illustrative)")
+print(f"{'Wholesale Peak Shaving (per day)':<45} | £{wholesale_saving_per_day:>12,.0f} | per-day (illustrative)")
 print("-" * 80)
-total_btm_saving = network_summary["total_annual_gbp"] + wholesale_saving
-print(f"{'TOTAL BEHIND-THE-METER VALUE':<45} | £{total_btm_saving:>12,.0f} | (See caveat below)")
+# FIXED: Do not add per-day wholesale to annual total
+print(f"{'TOTAL BTM (annual, excl. wholesale)':<45} | £{total_btm_annual:>12,.0f} | (See caveat below)")
+print(f"{'  of which continuous (DUoS + residual)':<45} | £{network_summary['continuous_annual_gbp'] + network_summary['partial_residual_annual_gbp']:>12,.0f} | continuous")
+print(f"{'  of which step-function (ASC Band Step)':<45} | £{network_summary['step_function_annual_gbp']:>12,.0f} | contingent")
 print("=" * 80)
 
 print("\nCAVEAT:")
@@ -184,6 +201,10 @@ assumptions = [
      "70MW baseline, two 2-hour spikes to 100MW.",
      "SYNTHETIC — modelling convenience. No public half-hourly hyperscale load trace exists"),
     
+    ("Sustained Peak Reduction", 
+     "50MW (full battery capacity) sustained to cross ASC band.",
+     "PROVISIONAL — assumes battery can guarantee this reduction contractually"),
+
     ("Sustained Peak Reduction", 
      "50MW (full battery capacity) sustained to cross ASC band.",
      "PROVISIONAL — assumes battery can guarantee this reduction contractually"),
