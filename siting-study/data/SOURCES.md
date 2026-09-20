@@ -22,4 +22,4 @@ File: `SVDLS_2025_Register.ods`
 
 ---
 
-Used in `evidence-log.md` (see threads L2, T3-06 through T3-13) and `b4-b6-siting-mismatch-study-design.md` (Layer 2, Tier 3).
+Used in `b4-b6-siting-mismatch-study-design.md` (Layer 2, Tier 3).

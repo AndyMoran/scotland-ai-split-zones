@@ -26,7 +26,7 @@ A companion evidence-log-verified study (`siting-study/`) checked this directly 
 
 A real, if modest, counter-pressure exists: the UK government's November 2025 "Delivering AI Growth Zones" policy offers a system-charge discount (up to £24/MWh for a 500MW Scottish site) specifically for this scenario. NESO's own public Future Energy Scenarios and Data Centres documents showed no sign of this being priced into the "little training" forecast as of the last check — worth revisiting if that's ever confirmed directly with NESO.
 
-*Full detail and sourcing: `siting-study/evidence-log.md` (entries EC-06 through EC-10) and `siting-study/README.md`.*
+*Full detail and sourcing: `siting-study/b4-b6-siting-mismatch-study-design.md` (Layer 2 / Tier 3, the energy-cost and connection-feasibility sections) and `siting-study/README.md`.*
 
 ---
 

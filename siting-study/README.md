@@ -28,24 +28,23 @@ So the pipeline's overall southern concentration has two different explanations 
 
 ## Verdict
 
-**Not confirmed, and not displaced.** The pipeline's southern concentration is real, well-evidenced, and only partly explained by land availability — more so for brownfield reuse, less so for farmland. Whether the unexplained residual reflects a genuine missed opportunity, or factors this analysis can't see (fibre, workforce, flatness, actual land-sale availability), remains open. See the study design doc for the full reasoning and the evidence log for every individual claim, its verdict, and its source.
+**Not confirmed, and not displaced.** The pipeline's southern concentration is real, well-evidenced, and only partly explained by land availability — more so for brownfield reuse, less so for farmland. Whether the unexplained residual reflects a genuine missed opportunity, or factors this analysis can't see (fibre, workforce, flatness, actual land-sale availability), remains open. See the study design doc for the full reasoning and sourcing behind every figure.
 
 ## Relationship to the Constraint-Direction Framework (Stages 1–6)
 
 This study does not test whether the Constraint-Direction Framework's siting logic is *wrong*. It tests whether the real-world pipeline is *following* it — a different question, with a different answer. Stages 1–6 model what optimal siting would be worth if a developer did it; this study checks whether developers actually have. The two are consistent, not in tension: Stage 5's own economics were already modest and contingent (an 8.6–18.7 year payback, resting partly on a TNUoS figure Stage 5's own ledger marks provisional), and finding that the real pipeline mostly sits away from the most-curtailed assets fits a market that hasn't found this an obvious trade — it isn't evidence the trade doesn't work.
 
-Where this study does bear directly on Stages 1–6: it confirms flexible-demand connections north of B4 are genuinely available, not a theoretical construct (SSEN Transmission's own registers). It also clarifies that the "behind-the-meter" value Stage 5 models is network-charge optimisation for a site that stays grid-connected — not a literal private wire to one turbine, which this study separately finds reported as infeasible for offshore wind specifically. Full reasoning in the evidence log.
+Where this study does bear directly on Stages 1–6: it confirms flexible-demand connections north of B4 are genuinely available, not a theoretical construct (SSEN Transmission's own registers — see `data/`). It also clarifies that the "behind-the-meter" value Stage 5 models is network-charge optimisation for a site that stays grid-connected — not a literal private wire to one turbine, which this study separately finds reported as infeasible for offshore wind specifically. Full reasoning in the study design doc.
 
 ## What's in this folder
 
 - **`b4-b6-siting-mismatch-study-design.md`** — the full study: hypothesis, methodology, all three evidence tiers, the complete 23-project pipeline table, and the current verdict.
-- **`evidence-log.md`** — the audit trail. Every checkable claim this work has made, one row each: what was claimed, what was found, the source, and an honest verdict (confirmed / refuted / unverified / etc.). Includes several claims this analysis got wrong on first pass and corrected on re-check — logged rather than quietly fixed.
 - **`btm-training-gap-note-for-split-zones.md`** — a focused note on behind-the-meter/private-wire supply mechanics, written for this repo's own Constraint-Direction Siting framework specifically.
 - **`data/`** — the raw supporting data behind the land-availability and connection-feasibility claims (SSEN Transmission registers, the Scottish Vacant and Derelict Land Survey 2025 register), so the findings can be checked directly rather than taken on citation alone. See `data/SOURCES.md` for licensing and attribution.
 
 ## Methodology discipline
 
-Every figure here traces to a primary source or a logged verification — not a half-remembered summary of one. Mean and median are never used interchangeably. Small samples are flagged, not extrapolated from. Claims are checked with the same rigour regardless of whether they came from an external source, a collaborator's suggestion, or this analysis's own earlier reasoning within the same working session — several genuine self-corrections are logged in the evidence log rather than silently revised.
+Every figure here traces to a primary source, cited directly in the study design doc — not a half-remembered summary of one. Mean and median are never used interchangeably. Small samples are flagged, not extrapolated from. Claims are checked with the same rigour regardless of whether they came from an external source, a collaborator's suggestion, or this analysis's own earlier reasoning within the same working session, and corrections made along the way are stated plainly where they affect a finding, not smoothed over.
 
 ## Licence
 
