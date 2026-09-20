@@ -42,7 +42,7 @@ Median Scottish export constraint events last 1.5 to 2.0 hours. Modern hyperscal
 Using a cost-proportion allocation of NESO’s outturn thermal constraint data (strictly filtered for 2023-2024 historical periods), we estimate Scotland’s annual constraint volume at ~1.76 TWh/year. This represents a **theoretical upper bound of ~£290M per year in avoided constraint costs if flexible AI were perfectly dispatched to absorb these events.
 
 **Finding 3:** Compatibility is NOT Capture
-The £500M figure is a theoretical ceiling, not guaranteed revenue. Real-world capture is materially lower due to:
+The £290M figure is a theoretical ceiling, not guaranteed revenue. Real-world capture is materially lower due to:
 ·	Physical Incompatibility: Short-duration grid events (under 1 hour) remain physically incompatible with large-scale AI response.
 ·	AI-Operator Friction Costs: Pausing a training run incurs real costs for the operator (e.g., idle GPU amortization, checkpoint overhead). Flexibility only makes economic sense if grid compensation exceeds these friction costs.
 
