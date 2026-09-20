@@ -41,6 +41,7 @@ Where this study does bear directly on Stages 1–6: it confirms flexible-demand
 - **`b4-b6-siting-mismatch-study-design.md`** — the full study: hypothesis, methodology, all three evidence tiers, the complete 23-project pipeline table, and the current verdict.
 - **`evidence-log.md`** — the audit trail. Every checkable claim this work has made, one row each: what was claimed, what was found, the source, and an honest verdict (confirmed / refuted / unverified / etc.). Includes several claims this analysis got wrong on first pass and corrected on re-check — logged rather than quietly fixed.
 - **`btm-training-gap-note-for-split-zones.md`** — a focused note on behind-the-meter/private-wire supply mechanics, written for this repo's own Constraint-Direction Siting framework specifically.
+- **`data/`** — the raw supporting data behind the land-availability and connection-feasibility claims (SSEN Transmission registers, the Scottish Vacant and Derelict Land Survey 2025 register), so the findings can be checked directly rather than taken on citation alone. See `data/SOURCES.md` for licensing and attribution.
 
 ## Methodology discipline
 

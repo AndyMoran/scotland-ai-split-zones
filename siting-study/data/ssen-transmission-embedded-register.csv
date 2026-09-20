@@ -1,0 +1,353 @@
+﻿Project Name,Customer Name,Connection Site,Stage,MW Connected,MW Increase / Decrease,Cumulative Total Capacity (MW),MW Effective From,Project Status,Agreement Type,Host TO,Plant Type,Project ID,Project Number
+Abhainn Rath & Allt na Lairige Hydro,Scottish Hydro Electric Power Distribution Plc,Kinlochleven GSP,,4.0,0.0,4.0,,Built,,SHET,Hydro,a0l4L0000005iqXQAQ,PRO-000617
+Achlachan,ACHLACHAN WIND FARM LLP,Mybster 132/33kV Substation,,20.0,0.0,20.0,,Built,,SHET,Wind Onshore,a0l4L0000005iSZQAY,PRO-000964
+Ardtrostan Hydro,Scottish Hydro Electric Power Distribution Plc,Killin GSP,,0.0,0.1,0.1,2024-11-30,Awaiting Consents,,SHET,Hydro,a0l8e000000f4iTAAQ,PRO-003863
+Auchnasavil Battery Storage,Auchnasavil Battery Storage Ltd,Carradale 132/33kV GSP Substation,,0.0,49.9,49.9,2032-10-31,Awaiting Consents,,SHET,Energy Storage System,a0l4L0000005iWmQAI,PRO-002127
+Balgonie Farm BESS,ELGIN ENERGY ES CO LIMITED,Abernethy 2 400/33kV GSP Substation,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000PDmpIAG,PRO-005015
+Balmeanach Wind Farm,BALMEANACH WIND FARM LIMITED,Edinbane GSP,,0.0,45.0,45.0,2029-11-30,Scoping,,SHET,Wind Onshore,a0l4L0000005iThQAI,PRO-001438
+Beinn Mheadhonach,Wind Harvest Limited,Edinbane GSP,,0.0,23.0,23.0,2029-11-30,Consents Approved,,SHET,Wind Onshore,a0l4L0000005iflQAA,PRO-001506
+Ben Sca,BEN SCA WIND FARM LIMITED,Edinbane GSP,,0.0,40.8,40.8,2028-04-16,Consents Approved,,SHET,Wind Onshore,a0l4L0000005iPvQAI,PRO-000907
+Binn Ecopark,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,0.0,9.9,9.9,2028-10-31,Scoping,,SHET,Waste,a0l8e000000TPbqAAG,PRO-003442
+Binn Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,9.4,0.0,9.4,,Built,,SHET,Wind Onshore,a0l4L0000005ir4QAA,PRO-000594
+Blackhill Farm,QAIR RENEWABLES UK LIMITED,Tarland GSP,,0.0,49.9,49.9,2032-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000PDqjIAG,PRO-005027
+Boat of Garten BESS,BOAT OF GARTEN BESS LIMITED,Boat of Garten GSP,,0.0,49.9,49.9,2024-09-30,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iU4QAI,PRO-001739
+Brackenhills Wind,Scottish Hydro Electric Power Distribution Plc,Macduff GSP,,0.0,2.3,2.3,2023-07-20,Scoping,,SHET,Wind Onshore,a0l4L0000005ir7QAA,PRO-000592
+Braco West BESS,Braco West BESS Limited,Braco West 275/33kV GSP Substation,,0.0,49.9,49.9,2027-07-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iU9QAI,PRO-001552
+Buckies Farm BESS,Opdenergy UK 15 Limited,Thurso South 132/33kV GSP Substation,,0.0,50.0,50.0,2030-10-30,Scoping,,SHET,Energy Storage System,a0l8e000001HxR3AAK,PRO-004252
+Burnside Battery Storage Park,SUNSHINE PROJECT 01 LIMITED,Charleston GSP,,0.0,49.9,49.9,2027-10-31,Awaiting Consents,,SHET,Energy Storage System,a0l8e0000011yXlAAI,PRO-003520
+Cairds Hill,EDP RENEWABLES UK LIMITED,Keith 1 132/33kV GSP Substation,,0.0,16.8,16.8,2026-10-01,Scoping,,SHET,Wind Onshore,a0l4L0000005iTaQAI,PRO-001382
+Cairnstone Estate Solar Wind and Storage,BSR APPLICATIONS LIMITED,Strichen 132/33kV GSP Substation,,0.0,60.0,60.0,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar);Wind Onshore,a0l8e0000012kj4AAA,PRO-004746
+Camster 2 Wind Farm,RWE Renewables UK Onshore Wind Limited,Mybster 132/33kV Substation,,38.0,0.0,38.0,,Built,,SHET,Wind Onshore,a0l4L0000005iSaQAI,PRO-000963
+Camster Wind Farm,RWE Renewables UK Onshore Wind Limited,Mybster 132/33kV Substation,,50.0,0.0,50.0,,Built,,SHET,Wind Onshore,a0l4L0000005iWGQAY,PRO-000293
+Carlincraig Wind,Scottish Hydro Electric Power Distribution Plc,Macduff GSP,,0.0,4.6,4.6,2023-09-30,Consents Approved,,SHET,Wind Onshore,a0l4L0000005irTQAQ,PRO-000583
+Carsebank PV,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,5.0,5.0,2021-11-30,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iiUQAQ,PRO-001169
+Castle of Auchry,Scottish Hydro Electric Power Distribution Plc,Strichen GSP,,2.4,0.0,2.4,,Built,,SHET,Wind Onshore,a0l4L0000005irUQAQ,PRO-000618
+Clachaig Glen Wind Farm,RWE Renewables UK Onshore Wind Limited,Carradale 2 132/33kV GSP Substation,1,0.0,47.6,47.6,2025-04-30,Awaiting Consents,,SHET,Energy Storage System;Wind Onshore,a0l4L0000005iPqQAI,PRO-000878-1
+Clachaig Glen Wind Farm,RWE Renewables UK Onshore Wind Limited,Carradale 2 132/33kV GSP Substation,2,0.0,5.2,52.8,2034-10-31,Consents Approved,,SHET,Energy Storage System;Wind Onshore,a0l4L0000005iPqQAI,PRO-000878-2
+Clachan,SSE GENERATION LIMITED,Clachan GSP,,40.0,0.0,40.0,,Built,,SHET,Hydro,a0l4L0000005iV5QAI,PRO-000071
+Clachan GSP,Scottish Hydro Electric Power Distribution Plc,Clachan GSP,,0.0,0.42,0.42,2025-09-30,Scoping,,SHET,Demand;Hydro,a0l8e000000TPPAAA4,PRO-003387
+Clayfords Energy Storage,Clayfords Energy Storage Ltd,Strichen 132/33kV GSP Substation,,0.0,49.9,49.9,2026-06-30,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iQcQAI,PRO-001895
+Cnoc Morail Wind Farm,QAIR RENEWABLES UK LIMITED,Mybster 132/33kV Substation,,0.0,26.4,26.4,2030-10-30,Scoping,,SHET,Energy Storage System;Wind Onshore,a0l8e000001HrhYAAS,PRO-004212
+Collace Solar Farm,COLLACE SOLAR LIMITED,Coupar Angus 132/33kV GSP,,0.0,49.9,49.9,2028-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iTmQAI,PRO-002061
+Cossans Solar/BESS Project,TRIO POWER LIMITED,Lunanhead GSP,,0.0,49.9,49.9,2032-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PECZIA4,PRO-005131
+Coulags Hydro,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,1.5,0.0,1.5,,Built,,SHET,Hydro,a0l4L0000005irYQAQ,PRO-000657
+Coulin Hydro,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,1.2,0.0,1.2,,Built,,SHET,Hydro,a0l4L0000005irZQAQ,PRO-000656
+Craigo Glenskinno,BSR APPLICATIONS LIMITED,Bridge of Dun 2 132/33kV Grid Supply Point Substation,,0.0,60.0,60.0,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar);Wind Onshore,a0l8e0000012kl5AAA,PRO-004771
+Crosskirk Energy Storage,THE ABBEY GROUP CAMBRIDGESHIRE LIMITED,Dounreay GSP,,0.0,49.9,49.9,2031-06-30,Scoping,,SHET,Energy Storage System,a0l8e0000012ggaAAA,PRO-004444
+DAVIDSON FARM PV AND BESS,IG Renewables Limited,Blackhillock 2 400/33kV GSP Substation,,0.0,45.0,45.0,2035-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PEayIAG,PRO-005808
+Denhead Solar Farm,MUIRDEN ENERGY LLP,Macduff GSP,,0.0,20.0,20.0,2029-03-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0lJ9000000blJOIAY,PRO-004791
+Deucheran Hill,RWE Renewables UK Onshore Wind Limited,Deucheran Hill GSP,,15.0,0.0,15.0,,Built,,SHET,Wind Onshore,a0l4L0000005iQlQAI,PRO-000899
+Deuchries Extension,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,4.7,0.0,4.7,,Built,,SHET,Wind Onshore,a0l4L0000005irbQAA,PRO-000654
+Dornich Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Clachan GSP,,1.35,0.0,1.35,,Built,,SHET,Hydro,a0l4L0000005ircQAA,PRO-000653
+Dounreay,Reay Power Limited,Dounreay GSP,,0.0,34.0,34.0,2027-11-01,Scoping,,SHET,Energy Storage System,a0l4L0000005iWuQAI,PRO-002318
+Dummuies Wind Farm,DUMMUIES WINDFARM HUNTLY LIMITED,Keith GSP,,12.25,0.0,12.25,,Built,,SHET,Wind Onshore,a0l4L0000005iSVQAY,PRO-000968
+Dunoon GSP (DNO),Scottish Hydro Electric Power Distribution Plc,Dunoon GSP,,0.0,0.48,0.48,2025-03-25,Scoping,,SHET,Energy Storage System,a0l4L0000005iY4QAI,PRO-002317
+Dunsinane Avenue,MAS 005 Limited,Lyndhurst 132/33kV,,0.0,20.0,20.0,2031-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000TPctAAG,PRO-003454
+Dunsinane Battery (formerly Lyndhurst),SUSI EELPOWER DUNSINANE LIMITED,Lyndhurst GSP,,0.0,49.9,49.9,2021-12-01,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iTgQAI,PRO-001052
+Easter Melrose Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Macduff GSP,,2.7,0.0,2.7,,Built,,SHET,Wind Onshore,a0l4L0000005irgQAA,PRO-000649
+Edradynate Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Tummel Bridge GSP,,1.3,0.0,1.3,,Built,,SHET,Hydro,a0l4L0000005irjQAA,PRO-000646
+Errol PV Generating Station,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,9.9,0.0,9.9,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijaQAA,PRO-001160
+Exhibit U Gleneagles Hotel,Scottish Hydro Electric Power Distribution Plc,Braco GSP,,0.13,0.0,0.13,,Built,,SHET,CHP (Combined Heat and Power);Demand,a0l8e0000010wSVAAY,PRO-002611
+Fairways Battery Storage,ICT Battery Storage Limited,Inverness GSP,,0.0,49.9,49.9,2025-12-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iMWQAY,PRO-002286
+Fall of Warness,THE EUROPEAN MARINE ENERGY CENTRE LIMITED,Eday 132/33kV GSP Substation,,0.0,22.8,22.8,2030-05-30,Scoping,,SHET,Tidal,a0l8e000000f40QAAQ,PRO-003812
+Fasnakyle Battery Storage,FASNAKYLE BATTERY STORAGE LIMITED,Fasnakyle GSP,,0.0,49.9,49.9,2026-06-30,Scoping,,SHET,Energy Storage System,a0l4L0000005j1jQAA,PRO-002481
+Fassfern Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Fort William GSP,,2.5,0.0,2.5,,Built,,SHET,Hydro,a0l4L0000005irmQAA,PRO-000643
+Fettereso BESS,ANESCO LIMITED,Fettersso 132/33kV Grid Supply Point Substation,,0.0,50.0,50.0,2028-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012gbFAAQ,PRO-004430
+Fetteresso Wind Farm,FETTERESSO WIND LIMITED,FETTERESSO 132/33kV SUBSTATION,,0.0,37.0,37.0,2026-09-30,Awaiting Consents,,SHET,Wind Onshore,a0l4L0000005iRtQAI,PRO-000927
+Fordtown Battery Storage,SUSI EELPOWER FORDTOWN LIMITED,Kintore GSP,,0.0,49.9,49.9,2022-07-01,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iQxQAI,PRO-000888
+Forfar WWTW,Scottish Hydro Electric Power Distribution Plc,lunanhead 132/33kV,,0.0,0.2,0.2,2025-10-31,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l8e000001I31VAAS,PRO-004329
+Forss Abbey Energy Storage,THE ABBEY GROUP CAMBRIDGESHIRE LIMITED,DOUNREAY 2 275 kV SUBSTATION,,0.0,49.9,49.9,2031-06-30,Scoping,,SHET,Demand;Energy Storage System,a0l8e000001HrmZAAS,PRO-004222
+Forss BP Wind Turbine,Scottish Hydro Electric Power Distribution Plc,Dounreay GSP,,0.0,9.8,9.8,2025-08-31,Scoping,,SHET,Wind Onshore,a0l4L0000005irvQAA,PRO-000639
+Fragland Solar and BESS,GREENTECH PROJECTS HOLDING UK LIMITED,ABERNETHY 2 400/33KV GRID SUPPLY POINT SUBSTATION,,0.0,60.0,60.0,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000POfvIAG,PRO-006072
+Fraserburgh GSP,Scottish Hydro Electric Power Distribution Plc,Fraserburgh GSP,,0.0,0.2,0.2,2025-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000TPPUAA4,PRO-003367
+Garbhaig Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005irxQAA,PRO-000637
+Gartly Moore,Huntly Development Trust Limited,Gartly Moore GSP,,0.0,16.0,16.0,2031-10-31,Awaiting Consents,,SHET,Demand;PV Array (Photo Voltaic/solar);Wind Onshore,a0l8e0000010wjsAAA,PRO-002805
+Glen Noe Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Taynuilt GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005is5QAA,PRO-000629
+Glengolly,ECOCEL ENERGY (STORAGE) LTD,THURSO 2 275/33KV GRID SUPPLY POINT SUBSTATION,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e000001Hy9qAAC,PRO-004326
+Greenscares Wind,Scottish Hydro Electric Power Distribution Plc,Braco West GSP,,0.0,8.0,8.0,2024-11-30,Under Construction/Commissioning,,SHET,Wind Onshore,a0l4L0000005isCQAQ,PRO-000622
+Greenside,Scottish Hydro Electric Power Distribution Plc,St Fergus Gas GSP,,9.2,0.0,9.2,,Built,,SHET,Wind Onshore,a0l4L0000005isDQAQ,PRO-000621
+Gremista Energy BESS,GREMISTA ENERGY LIMITED,Gremista 132/33KV Grid Supply Point Substation,,0.0,49.9,49.9,2035-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000POVXIA4,PRO-006048
+Hallyburton BESS,Balance Power Projects Limited,Coupar Angus 2 GSP,,0.0,49.9,49.9,2029-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000010wlZAAQ,PRO-002824
+Hammars Hill B,Scottish Hydro Electric Power Distribution Plc,Finstown (Orkney) GSP,,0.0,8.4,8.4,2028-06-30,Consents Approved,,SHET,Demand;Wind Onshore,a0l8e000001I31fAAC,PRO-004331
+Harris Academy,Scottish Hydro Electric Power Distribution Plc,Charleston GSP,,0.0,0.13,0.13,2031-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000ewinAAA,PRO-003679
+Househill BESS,HOUSEHILL BESS LIMITED,Nairn 132/33kV Grid Supply Point Substation,,0.0,49.9,49.9,2027-10-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iejQAA,PRO-001499
+Inverurie Paper Mills,SYLVAMO UK LIMITED,Kintore GSP,,7.5,0.0,7.5,,Built,,SHET,Thermal,a0l4L0000005iRfQAI,PRO-000881
+Jamesfield Farm,GREENTECH PROJECTS HOLDING UK LIMITED,ABERNETHY 2 400/33KV GRID SUPPLY POINT SUBSTATION,,0.0,60.0,60.0,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000POBGIA4,PRO-006011
+Keltie Hydro,Scottish Hydro Electric Power Distribution Plc,Braco West GSP,,1.0,0.0,1.0,,Built,,SHET,Hydro,a0l4L0000005icIQAQ,PRO-000701
+Kempstone Hill Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Fiddes GSP,,2.4,0.0,2.4,,Built,,SHET,Wind Onshore,a0l4L0000005icJQAQ,PRO-000700
+Kinnon Park PV and Battery,NS SOLAR KINNON PARK LIMITED,Burghmuir GSP,,0.0,49.5,49.5,2028-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e0000011z7cAAA,PRO-003567
+Kintore South Fordtown (Leylodge),Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,0.0,50.0,50.0,2027-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iWoQAI,PRO-002248
+Kintore South Fordtown Energy Storage,XRE Gamma Ltd,Kintore 132/33kV GSP Substation,2,0.0,25.0,50.0,2029-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iY1QAI,PRO-002154-2
+Kirkton Wind Farm,Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,6.9,0.0,6.9,,Built,,SHET,Wind Onshore,a0l4L0000005icMQAQ,PRO-000697
+Lairg - Achany Wind Farm,SSE GENERATION LIMITED,Lairg GSP,,38.0,0.0,38.0,,Built,,SHET,Wind Onshore,a0l4L0000005iR0QAI,PRO-000885
+Lairg Phase 2,Scottish Hydro Electric Power Distribution Plc,Lairg GSP,,2.5,0.0,2.5,,Built,,SHET,Wind Onshore,a0l4L0000005icQQAQ,PRO-000693
+Land at Rothienorman,ROTHIENORMAN ENERGY STORAGE LIMITED,Rothienorman 400/33kV Substation,,0.0,49.9,49.9,2024-10-31,Awaiting Consents,,SHET,Energy Storage System,a0l4L0000005iTqQAI,PRO-002073
+Land at Sir William Smith Road,FPC ELECTRIC LAND LIMITED,Arbroath GSP,,0.0,49.9,49.9,2032-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000f3zNAAQ,PRO-003802
+Lerwick B,SSE GENERATION LIMITED,Shetland GSP (132kV),,37.0,0.0,37.0,,Built,,SHET,Thermal,a0l4L0000005iRnQAI,PRO-000933
+Loanhead Farm BESS,Opdenergy UK 18 Limited,Elgin GSP,,0.0,50.0,50.0,2030-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000f41OAAQ,PRO-003822
+Locarno Works - BESS Development,Torridon Developments Limited,Dudhope GSP,,0.0,39.9,39.9,2027-10-31,Awaiting Consents,,SHET,Energy Storage System,a0l8e0000010wQAAAY,PRO-002591
+Loch Eilde Mor,Scottish Hydro Electric Power Distribution Plc,Kinlochleven GSP,,5.0,0.0,5.0,,Built,,SHET,Hydro,a0l4L0000005icWQAQ,PRO-000687
+Lochaber Farm,ECOCEL ENERGY (STORAGE) LTD,Arbroath 2 132/33kV GSP Substation,,0.0,49.9,49.9,2032-10-31,Scoping,,SHET,Energy Storage System,a0l8e000001Hq2KAAS,PRO-004172
+Lochaber Smelter,SIMEC LOCHABER HYDROPOWER 2 LIMITED,Fort William GSP,2,0.0,51.9,80.0,2019-10-31,Under Construction/Commissioning,,SHET,Hydro,a0l4L0000005iQ6QAI,PRO-001274-2
+Lochend Extension,CWE Lochend Ltd,Thurso South 132/33kV GSP Substation,,0.0,20.2,20.2,2034-04-30,Scoping,,SHET,Wind Onshore,a0l8e0000012jKgAAI,PRO-004665
+Lochluichart Battery Storage,Lochluichart Battery Storage Limited,Grudie Bridge GSP,,0.0,49.9,49.9,2028-05-30,Scoping,,SHET,Energy Storage System,a0l4L0000005iUTQAY,PRO-002288
+Macduff Battery Storage,Macduff Battery Storage Ltd,MacDuff 132/33kV GSP Substation,,0.0,49.9,49.9,2026-06-30,Awaiting Consents,,SHET,Energy Storage System,a0l4L0000005iWzQAI,PRO-002250
+Marine Energy Test Centre,THE EUROPEAN MARINE ENERGY CENTRE LIMITED,Marine Energy Test Centre,,7.0,0.0,7.0,,Built,,SHET,Wave,a0l4L0000005iRsQAI,PRO-000928
+Mid Craigie BESS,Mid Craigie BESS Limited,Milton of Craigie 132/33kV Grid Supply Point Substation,,0.0,49.9,49.9,2027-07-31,Awaiting Consents,,SHET,Energy Storage System,a0l8e0000010wbFAAQ,PRO-002709
+Middleton of Potterton Farm,QAIR RENEWABLES UK LIMITED,Dyce 132/33kV GSP,,0.0,49.9,49.9,2029-03-31,Scoping,,SHET,Demand;Energy Storage System,a0lJ9000000PECFIA4,PRO-005127
+Milltown Airfield Solar Farm,MILLTOWN AIRFIELD SOLAR PV LIMITED,Elgin 132/33kV Grid Supply Point Substation,,0.0,49.9,49.9,2027-02-28,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iQ3QAI,PRO-001277
+Milton of Craigie GSP,Scottish Hydro Electric Power Distribution Plc,Milton of Craigie 132/33kV Grid Supply Point Substation,,0.0,0.25,0.25,2025-06-30,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e000000TPPkAAO,PRO-003351
+Milton of Fisherie Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Macduff GSP,,4.6,0.0,4.6,,Built,,SHET,Wind Onshore,a0l4L0000005idwQAA,PRO-000674
+Monan Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Harris GSP,,1.5,0.0,1.5,,Built,,SHET,Wind Onshore,a0l4L0000005idxQAA,PRO-000673
+Mount Blairy,GREENTECH INVEST UK (7) LIMITED,MacDuff 132/33kV GSP Substation,,0.0,35.2,35.2,2027-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iXTQAY,PRO-002284
+Muirake Wind Farm,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,4.6,0.0,4.6,,Built,,SHET,Wind Onshore,a0l4L0000005iTyQAI,PRO-001485
+Nairn BESS,ANESCO LIMITED,Nairn 132/33kV Grid Supply Point Substation,,0.0,29.36,29.36,2026-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005jAHQAY,PRO-002533
+Nan Clach Extension,Nan Clach Extension Ltd,Boat of Garten 132/33kV Grid Supply Point Substation,,0.0,35.0,35.0,2030-08-31,Scoping,,SHET,Energy Storage System;Wind Onshore,a0l8e000001HpCpAAK,PRO-004112
+Neshion Energy Park,SHETLAND AEROGENERATORS LIMITED,Gremista 132/33KV Grid Supply Point Substation,,0.0,49.9,49.9,2035-10-31,Scoping,,SHET,Energy Storage System;Wind Onshore,a0lJ9000000PDvUIAW,PRO-005071
+Nevis Range Hydro,Scottish Hydro Electric Power Distribution Plc,Fort William GSP,,1.1,0.0,1.1,,Built,,SHET,Hydro,a0l4L0000005idzQAA,PRO-000671
+New Mains of Guynd PV,Scottish Hydro Electric Power Distribution Plc,Arbroath GSP,,9.5,0.0,9.5,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijhQAA,PRO-001230
+Olrig Mains Wind Farm,QAIR RENEWABLES UK LIMITED,Thurso 2 275/33kV Substation,,0.0,26.5,26.5,2033-10-31,Scoping,,SHET,Wind Onshore,a0lJ9000000PECAIA4,PRO-005126
+Orchardbank Battery Storage,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,9.99,9.99,2024-04-20,Consents Approved,,SHET,Energy Storage System,a0l4L0000005ie2QAA,PRO-000730
+Orkney Community Wind Farm - Hoy,Orkney Islands Council,Finstown 132/33kV GSP Substation,,0.0,30.0,30.0,2028-06-30,Scoping,,SHET,Wind Onshore,a0l8e0000010wSzAAI,PRO-002617
+Orkney Finstown Embedded Generation,Scottish Hydro Electric Power Distribution Plc,Finstown (Orkney) GSP,1,0.0,50.0,50.0,2023-04-30,Scoping,,SHET,Wind Onshore,a0l4L0000005ie3QAA,PRO-000729-1
+Parkhill Farm PV,Scottish Hydro Electric Power Distribution Plc,Arbroath GSP,,4.99,0.0,4.99,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijjQAA,PRO-001228
+Parkhill South Solar Farm,Scottish Hydro Electric Power Distribution Plc,Arbroath GSP,,0.0,9.9,9.9,2024-09-30,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ibLQAQ,PRO-002047
+Patrickston Farm,Scottish Hydro Electric Power Distribution Plc,Braco West GSP,,0.0,9.99,9.99,2025-06-30,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijkQAA,PRO-001227
+Paul's Hill II Wind Farm,PAUL'S HILL II LIMITED,Glenfarclas GSP,,0.0,21.0,21.0,2029-06-30,Scoping,,SHET,Wind Onshore,a0l4L0000005iQvQAI,PRO-000890
+Paul's Hill Wind Farm,PAUL'S HILL WIND LIMITED,Glenfarclas GSP,,70.0,-5.5,64.5,2022-10-31,Built,,SHET,Wind Onshore,a0l4L0000005iQiQAI,PRO-000902
+Peattie Farm - Coupar Angus,GREENTECH PROJECTS HOLDING UK LIMITED,Coupar Angus 2 GSP,,0.0,22.0,22.0,2029-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e0000010wwcAAA,PRO-002989
+Pentland Road,PENTLAND ROAD WINDFARM LIMITED,Stornoway GSP,1,13.8,0.0,13.8,,Built,,SHET,Wind Onshore,a0l4L0000005iUkQAI,PRO-000361-1
+Peterhead Grange GSP,Scottish Hydro Electric Power Distribution Plc,Peterhead Grange GSP,,0.0,0.2,0.2,2025-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000TPPpAAO,PRO-003346
+PM AB2 Energy Storage,CBS ENERGY STORAGE ASSETS UK LIMITED,Abernethy GSP,,0.0,15.0,15.0,2028-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000010xgyAAA,PRO-003082
+Pressock Farm PV,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,5.0,0.0,5.0,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijmQAA,PRO-001225
+Redbog,Scottish Hydro Electric Power Distribution Plc,Strichen GSP,,1.6,0.0,1.6,,Built,,SHET,Wind Onshore,a0l4L0000005ie5QAA,PRO-000727
+Redmoss GSP,Scottish Hydro Electric Power Distribution Plc,Redmoss 132/33kV GSP Substation,,0.0,8.0,8.0,2026-07-31,Scoping,,SHET,Energy Storage System,a0l8e000000TPPtAAO,PRO-003342
+River Muick Hydro,Scottish Hydro Electric Power Distribution Plc,Tarland GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005ie6QAA,PRO-000726
+Rosehall,RWE Renewables UK Onshore Wind Limited,Shin 1 GSP,,24.7,0.0,24.7,,Built,,SHET,Wind Onshore,a0l4L0000005iSNQAY,PRO-000917
+Rothes II (Cairn Uish II) Wind Farm,ROTHES II LIMITED,Dallas GSP,,41.4,0.0,41.4,,Built,,SHET,Wind Onshore,a0l4L0000005iPoQAI,PRO-000872
+St Fillans,SSE GENERATION LIMITED,St Fillans GSP,,16.8,0.0,16.8,,Built,,SHET,Hydro,a0l4L0000005iRxQAI,PRO-000923
+Stoneywood Mills (Wiggins Teape Stoneywood),ARJO WIGGINS FINE PAPERS LIMITED,Dyce 132/33kV Substation,,12.0,0.0,12.0,,Built,,SHET,CHP (Combined Heat and Power),a0l4L0000005iRDQAY,PRO-001311
+Swarclett Farm and BESS,WIND 2 LIMITED,THURSO 2 275/33KV GRID SUPPLY POINT SUBSTATION,,0.0,18.0,18.0,2033-10-31,Scoping,,SHET,Energy Storage System;Wind Onshore,a0l8e0000012kiLAAQ,PRO-004742
+Tailors Wynd,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,0.97,0.97,2025-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e0000011xUOAAY,PRO-003459
+Tangy Wind Argyll,SSE GENERATION LIMITED,Tangy (1) Wind Argyll Substation,,19.0,0.0,19.0,,Built,,SHET,Wind Onshore,a0l4L0000005iSjQAI,PRO-000954
+Thornhill BESS,ELGIN ENERGY ES CO LIMITED,CRAIGIEBUCKLER 132/33kV GSP SUBSTATION,,0.0,40.0,40.0,2032-09-30,Scoping,,SHET,Energy Storage System,a0l8e0000012kkRAAQ,PRO-004763
+Thurso BESS,Stainland BESS Limited,Thurso South 132/33kV GSP Substation,,0.0,49.9,49.9,2027-06-30,Scoping,,SHET,Energy Storage System,a0l4L0000005iXKQAY,PRO-001967
+Toftinghall BESS 1,Toftingall Wind Limited,Mybster 1 GSP,,0.0,25.2,25.2,2026-09-30,Awaiting Consents,,SHET,Energy Storage System,a0l4L0000005iSdQAI,PRO-000960
+Tom Nan Clach,NANCLACH LIMITED,Boat of Garten GSP,,41.0,0.0,41.0,,Built,,SHET,Wind Onshore,a0l4L0000005iPyQAI,PRO-001235
+Wathegar 2 Windfarm,WATHEGAR 2 LIMITED,Mybster 1 GSP,,22.5,0.0,22.5,,Built,,SHET,Wind Onshore,a0l4L0000005iSeQAI,PRO-000959
+Welton of Creuchies Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Coupar Angus 132/33kV GSP,,9.2,0.0,9.2,,Built,,SHET,Wind Onshore,a0l4L0000005if9QAA,PRO-000712
+West Coast Community Energy,WEST COAST COMMUNITY ENERGY LIMITED,STORNOWAY 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,44.0,44.0,2033-10-31,Scoping,,SHET,Wind Onshore,a0lJ9000000PNgmIAG,PRO-005998
+Yonderton Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,4.6,0.0,4.6,,Built,,SHET,Wind Onshore,a0l4L0000005ifDQAQ,PRO-000708
+Abernethy GSP (DNO) (Industrial Estate Friarton Road),Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,0.0,0.14,0.14,2023-08-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000TPIlAAO,PRO-003249
+AECC (Rowett),Scottish Hydro Electric Power Distribution Plc,Dyce 132/33kV GSP,,4.0,0.0,4.0,,Built,,SHET,Biomass,a0l4L0000005iT7QAI,PRO-001002
+Allt Cheanna Mhuir Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Fort William GSP,,1.75,0.0,1.75,,Built,,SHET,Hydro,a0l4L0000005iqaQAA,PRO-000614
+Arbroath GSP (DNO),Scottish Hydro Electric Power Distribution Plc,Arbroath 2 132/33kV GSP Substation,,0.0,0.14,0.14,2023-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000011xwMAAQ,PRO-003479
+Ardtalnaig Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Killin GSP,,1.5,0.0,1.5,,Built,,SHET,Hydro,a0l4L0000005iqsQAA,PRO-000606
+Arkhill Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Coupar Angus 132/33kV GSP,,8.5,0.0,8.5,,Built,,SHET,Wind Onshore,a0l4L0000005iquQAA,PRO-000604
+Attadale Hydro,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,3.5,0.0,3.5,,Built,,SHET,Hydro,a0l4L0000005iqvQAA,PRO-000603
+Auchinderran,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,2.4,0.0,2.4,,Built,,SHET,Wind Onshore,a0l4L0000005iqwQAA,PRO-000602
+Aviva Project Progression,Scottish Hydro Electric Power Distribution Plc,Burghmuir GSP,,1.37,0.0,1.37,,Built,,SHET,Energy Storage System,a0l4L0000005iarQAA,PRO-001418
+Backmuir Farm BESS,Balance Power Projects Limited,Blackhillock 2 400/33kV GSP Substation,,0.0,49.5,49.5,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012gtLAAQ,PRO-004485
+Badachro Hydro,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,1.4,0.0,1.4,,Built,,SHET,Hydro,a0l4L0000005iqzQAA,PRO-000599
+Bairds Malt  CHP,Scottish Hydro Electric Power Distribution Plc,Inverness GSP,,1.2,0.0,1.2,,Built,,SHET,CHP (Combined Heat and Power),a0l4L0000005iS6QAI,PRO-001296
+Balgonie Farm,Opdenergy UK 12 Limited,ABERNETHY 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,50.0,50.0,2028-10-31,Scoping,,SHET,Energy Storage System,a0l8e000001HpdFAAS,PRO-004123
+Balgonie Solar and BESS,GREENTECH PROJECTS HOLDING UK LIMITED,ABERNETHY 2 400/33KV GRID SUPPLY POINT SUBSTATION,,0.0,60.0,60.0,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PDtJIAW,PRO-005047
+Balwyllo BESS,BALWYLLO BESS LIMITED,BRIDGE OF DUN 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,49.9,49.9,2032-06-30,Scoping,,SHET,Energy Storage System,a0l4L0000005iXtQAI,PRO-002352
+Beinn an Tuirc,SCOTTISHPOWER RENEWABLES (UK) LIMITED,Beinn an Tuirc Substation,,30.0,0.0,30.0,,Built,,SHET,Wind Onshore,a0l4L0000005iPiQAI,PRO-000848
+Ben Aketil Wind,BEN AKETIL WIND ENERGY LIMITED,Dunvegan GSP,,28.0,0.0,28.0,,Built,,SHET,Wind Onshore,a0l4L0000005iPjQAI,PRO-000877
+Bettyhill Wind Farm,Scottish Hydro Electric Power Distribution Plc,Dounreay GSP,,5.0,0.0,5.0,,Built,,SHET,Wind Onshore,a0l4L0000005ir2QAA,PRO-000596
+Binn Solar  Farm,TRIO POWER LIMITED,Abernethy 2 GSP,,0.0,30.0,30.0,2035-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000POjoIAG,PRO-006117
+Blackpark Battery Storage,BLACKPARK ENERGY STORAGE LIMITED,Nairn 132/33kV Grid Supply Point Substation,,0.0,49.9,49.9,2027-06-30,Awaiting Consents,,SHET,Energy Storage System,a0l4L0000005iRlQAI,PRO-000935
+Boat of Garten GSP,Scottish Hydro Electric Power Distribution Plc,Boat of Garten 132/33kV Grid Supply Point Substation,,0.0,0.1,0.1,2023-12-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000TPOyAAO,PRO-003295
+Boothby Road BESS (PI CS),Opdenergy UK 11 Limited,Fraserburgh 132/33kV GSP Substation,,0.0,50.0,50.0,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012kj9AAA,PRO-004747
+Braco Battery,BRACO ENERGY STORAGE LIMITED,Braco West 275/33kV GSP Substation,,0.0,49.9,49.9,2026-07-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iT3QAI,PRO-000943
+Braco West (Formerly Braco) GSP,Scottish Hydro Electric Power Distribution Plc,Braco West GSP,,0.0,0.12,0.12,2024-12-30,Awaiting Consents,,SHET,Energy Storage System,a0l8e000000TPOzAAO,PRO-003294
+Bruar Hydro,Scottish Hydro Electric Power Distribution Plc,Tummel Bridge GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005irBQAQ,PRO-000588
+Bunloinn Wind Farm BELLA,ENERGYFARM BUNLOINN LLP,Fort Augustus GSP/New Fort Augustus GSP,,0.0,71.6,71.6,2035-10-31,Scoping,,SHET,Demand;Energy Storage System;Wind Onshore,a0lJ9000000blUyIAI,PRO-004878
+Burgar Hill Renewables Limited,BURGAR HILL RENEWABLES LIMITED,Finstown GSP,,0.0,30.0,30.0,2031-09-30,Scoping,,SHET,Wind Onshore,a0lJ9000000PEBbIAO,PRO-005121
+Burghmuir Battery,GLENDEVON ENERGY STORAGE LIMITED,Burghmuir GSP,,0.0,49.9,49.9,2022-12-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iTzQAI,PRO-001486
+Burghmuir GSP,Scottish Hydro Electric Power Distribution Plc,Burghmuir 2 400/33kV GSP,,0.0,1.24,1.24,2024-09-30,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e000000TPP3AAO,PRO-003290
+Burghmuir GSP (DNO) Broxden Hub,Scottish Hydro Electric Power Distribution Plc,Burghmuir GSP,,0.0,0.15,0.15,2024-05-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e0000010wj9AAA,PRO-002796
+Cairnbulg BESS,Balance Power Projects Limited,Fraserburgh 132 kV,,0.0,49.5,49.5,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000f69wAAA,PRO-003961
+Cairntawie,WIND 2 LIMITED,ST FERGUS GAS 132/11KV SUBSTATION,,0.0,10.0,10.0,2033-10-31,Scoping,,SHET,Energy Storage System;Wind Onshore,a0l8e0000012guTAAQ,PRO-004498
+Ceannacroc Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Ceannacroc GSP,,1.75,0.0,1.75,,Built,,SHET,Hydro,a0l4L0000005irVQAQ,PRO-000660
+Claverhouse Gas Generation,Fishcross Generation Limited,Milton of Craigie GSP,,0.0,19.9,19.9,2026-04-30,Scoping,,SHET,Gas Reciprocating,a0l4L0000005iR5QAI,PRO-001319
+Shin,SSE GENERATION LIMITED,Shin 1 GSP,,18.6,0.0,18.6,,Built,,SHET,Hydro,a0l4L0000005iTQQAY,PRO-000985
+Cordon Farm PV,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,0.0,9.9,9.9,2024-05-31,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iiVQAQ,PRO-001168
+Cornabo Wind,Scottish Hydro Electric Power Distribution Plc,Tarland GSP,,0.0,2.4,2.4,2026-10-31,Scoping,,SHET,Wind Onshore,a0l4L0000005irWQAQ,PRO-000659
+Corrour Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Rannoch GSP,,5.5,0.0,5.5,,Built,,SHET,Hydro,a0l4L0000005irXQAQ,PRO-000658
+Cullerlie Estate PV,Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,0.0,8.75,8.75,2024-05-01,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iiWQAQ,PRO-001167
+Dalchork Farm - 2,QAIR RENEWABLES UK LIMITED,Lairg 2 132/33kV Grid Supply Point Substation,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000PDwrIAG,PRO-005081
+DENFIELD 20MW BESS,SEAHILLS PROPERTIES LIMITED,Arbroath GSP,,0.0,20.0,20.0,2032-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012j9AAAQ,PRO-004632
+Deuchries Wind,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,7.05,0.0,7.05,,Built,,SHET,Wind Onshore,a0l4L0000005iT9QAI,PRO-001000
+Dronley Solar,GREENTECH PROJECTS HOLDING UK LIMITED,Lyndhurst GSP,,0.0,50.0,50.0,2031-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000001HoTsAAK,PRO-004078
+Drumderg Wind Farm,SSE GENERATION LIMITED,Coupar Angus 132/33kV GSP,,32.0,0.0,32.0,,Built,,SHET,Wind Onshore,a0l4L0000005iSTQAY,PRO-000970
+Dyce Battery Storage,Dyce Battery Storage Limited,Dyce 132/33kV GSP,,0.0,49.9,49.9,2028-10-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iMEQAY,PRO-002332
+Dyce Energy Storage Facility,CBS ENERGY STORAGE ASSETS UK LIMITED,Dyce 132/33kV Substation,,0.0,30.0,30.0,2026-03-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iNlQAI,PRO-001822
+Easter Tolmauds,Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,2.4,0.0,2.4,,Built,,SHET,Wind Onshore,a0l4L0000005irhQAA,PRO-000648
+Eskart Hydro,Scottish Hydro Electric Power Distribution Plc,Fort Augustus GSP,,1.99,0.0,1.99,,Built,,SHET,Hydro,a0l4L0000005irlQAA,PRO-000644
+Exhibit U Marywell Works,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,0.19,0.19,2025-10-31,Scoping,,SHET,CCGT (Combined Cycle Gas Turbine),a0l8e000000f7p8AAA,PRO-004015
+Fofar Solar Farm,Industria Solar Forfar Limited,LUNANHEAD 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,29.8,29.8,2026-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iTfQAI,PRO-002034
+Fraserburgh Energy Plant,FRASERBURGH ENERGY LTD,Fraserburgh GSP,,0.0,45.0,45.0,2026-10-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005j1XQAQ,PRO-001820
+Glen Affric Generation Station,Scottish Hydro Electric Power Distribution Plc,Fasnakyle GSP,,4.28,0.0,4.28,,Built,,SHET,Wind Onshore,a0l4L0000005is1QAA,PRO-000633
+Glen Buck Hydro,Scottish Hydro Electric Power Distribution Plc,Fort Augustus GSP,,2.05,0.0,2.05,,Built,,SHET,Hydro,a0l4L0000005is2QAA,PRO-000632
+Glen Etive Hydro,Scottish Hydro Electric Power Distribution Plc,Kinlochleven GSP,,4.82,0.0,4.82,,Built,,SHET,Hydro,a0l4L0000005is4QAA,PRO-000630
+Glencreggan Wind Farm,DALRIADA RENEWABLES LIMITED,Carradale 2 GSP,,0.0,30.0,30.0,2034-10-31,Scoping,,SHET,Wind Onshore,a0lJ9000000bltFIAQ,PRO-004972
+Glendoick Garden Centre,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,0.0,0.15,0.15,2024-01-17,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000TPOsAAO,PRO-003301
+Golspie Business Park,Scottish Hydro Electric Power Distribution Plc,Brora GSP,,0.0,0.06,0.06,2024-03-08,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e0000011yBqAAI,PRO-003507
+Golticlay Wind Farm,RWE Renewables UK Onshore Wind Limited,Mybster 1 132/33kV Substation,1,0.0,50.07,50.07,2026-07-31,Awaiting Consents,,SHET,Wind Onshore,a0l4L0000005iUnQAI,PRO-000370-1
+Hill of Lybster Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Dounreay GSP,,0.0,1.5,1.5,2023-04-30,Consents Approved,,SHET,Wind Onshore,a0l4L0000005isYQAQ,PRO-000667
+Hillhead Of Auquhirrie Wind Generating station,Scottish Hydro Electric Power Distribution Plc,Fiddes GSP,,6.9,0.0,6.9,,Built,,SHET,Wind Onshore,a0l4L0000005isZQAQ,PRO-000666
+Hillhead of Gask,Scottish Hydro Electric Power Distribution Plc,Strichen GSP,,0.0,9.5,9.5,2023-11-30,Consents Approved,,SHET,Wind Onshore,a0l4L0000005idNQAQ,PRO-001664
+Houstry (Boulfruich) Wind Farm,BOULFRUICH WIND FARM LIMITED,Dunbeath GSP,,14.0,0.0,14.0,,Built,,SHET,Wind Onshore,a0l4L0000005iPtQAI,PRO-000909
+iV025 Craigton Energy Storage,FLEXION ENERGY UK STORAGE LTD,Craigiebuckler GSP,1,0.0,40.0,40.0,2027-08-30,Scoping,,SHET,Energy Storage System,a0l8e000000ewXXAAY,PRO-003664-1
+iV025 Craigton Energy Storage,FLEXION ENERGY UK STORAGE LTD,Craigiebuckler GSP,2,0.0,0.0,40.0,2032-09-30,Scoping,,SHET,Energy Storage System,a0l8e000000ewXXAAY,PRO-003664-2
+Kildrummy Wind Farm,KILDRUMMY WIND FARM LIMITED,Tarland GSP,,18.4,0.0,18.4,,Built,,SHET,Wind Onshore,a0l4L0000005iSlQAI,PRO-000952
+Kintore BESS,Conrad Energy (Developments) II Limited,Kintore 2 GSP,,0.0,49.9,49.9,2031-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005j6tQAA,PRO-002518
+Kintore South Fordtown Energy Storage,XRE Gamma Ltd,Kintore 132/33kV GSP Substation,1,0.0,25.0,25.0,2026-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iY1QAI,PRO-002154-1
+Little Hilton,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,2.3,0.0,2.3,,Built,,SHET,Wind Onshore,a0l4L0000005icUQAQ,PRO-000689
+Loch Leacann,Scottish Hydro Electric Power Distribution Plc,Port Ann GSP,,1.1,0.0,1.1,,Built,,SHET,Hydro,a0l4L0000005icZQAQ,PRO-000684
+Lochend Wind Farm,Scottish Hydro Electric Power Distribution Plc,Thurso South GSP,,9.2,0.0,9.2,,Built,,SHET,Wind Onshore,a0l4L0000005icbQAA,PRO-000682
+Lunanhead GSP,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,5.0,5.0,2025-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000TPPgAAO,PRO-003355
+Lurghill Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,2.4,0.0,2.4,,Built,,SHET,Wind Onshore,a0l4L0000005idrQAA,PRO-000679
+Mains of Dun Solar,GREENTECH PROJECTS HOLDING UK LIMITED,Bridge of Dun GSP,,0.0,28.0,28.0,2032-06-30,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000f7GkAAI,PRO-004007
+Merkland Burn Hydro  (DNO),Scottish Hydro Electric Power Distribution Plc,Carradale 1 GSP,,0.0,0.18,0.18,2029-10-31,Scoping,,SHET,Demand;Hydro,a0l8e0000010wSLAAY,PRO-002610
+Mid Backhill Wind Farm,Scottish Hydro Electric Power Distribution Plc,Strichen GSP,,2.35,0.0,2.35,,Built,,SHET,Wind Onshore,a0l4L0000005idvQAA,PRO-000675
+Mid Whitestones Farm PV,Scottish Hydro Electric Power Distribution Plc,Strichen GSP,,0.0,9.9,9.9,2027-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iwtQAA,PRO-002260
+Mybster BESS_Ver2,ANESCO LIMITED,Mybster 4 132/33 kV GSP Substation,,0.0,30.0,30.0,2034-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012kgyAAA,PRO-004733
+Nairn II BESS,ANESCO LIMITED,Nairn 132/33kV Grid Supply Point Substation,,0.0,65.0,65.0,2028-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012kpjAAA,PRO-004774
+Nathrach Hydro,Scottish Hydro Electric Power Distribution Plc,Kinlochleven GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005idyQAA,PRO-000672
+NESS Energy Project,INDAVER NESS SERVICES LIMITED,Redmoss GSP,,16.0,0.0,16.0,,Built,,SHET,Waste,a0l4L0000005iR4QAI,PRO-001320
+Ness of Quoys,MEYGEN PLC,Ness of Quoys 33kv Substation,,14.9,0.0,14.9,,Built,,SHET,Tidal,a0l4L0000005iXgQAI,PRO-000913
+New Mains of Kinblethmont PV,Scottish Hydro Electric Power Distribution Plc,Arbroath GSP,,5.0,0.0,5.0,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijiQAA,PRO-001229
+Newhouse Energy Storage,NEWHOUSE ENERGY STORAGE LIMITED,Burghmuir GSP,,0.0,49.9,49.9,2028-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iNhQAI,PRO-001817
+Newtack Farm,QAIR RENEWABLES UK LIMITED,Blackhillock 2 400/33kV GSP Substation,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e000001HoYUAA0,PRO-004081
+Newton of Fortrie Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,6.9,0.0,6.9,,Built,,SHET,Wind Onshore,a0l4L0000005ie0QAA,PRO-000670
+Nisthill Wind Farm,NISTHILL WIND FARM LIMITED,Finstown GSP,,0.0,26.4,26.4,2029-06-30,Scoping,,SHET,Wind Onshore,a0l8e0000011z1dAAA,PRO-003561
+North Mains Battery Storage Park,SUTTIESIDE BATTERY LIMITED,Lunanhead 132/33kV GSP Substation,,0.0,22.0,22.0,2025-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iTsQAI,PRO-001659
+Novar 2 Wind Farm,RWE RENEWABLES UK SWINDON LIMITED,Alness GSP,,36.8,0.0,36.8,,Built,,SHET,Wind Onshore,a0l4L0000005iShQAI,PRO-000956
+Orkney Finstown Embedded Generation,Scottish Hydro Electric Power Distribution Plc,Finstown (Orkney) GSP,2,0.0,60.0,110.0,2024-10-31,Scoping,,SHET,Wind Onshore,a0l4L0000005ie3QAA,PRO-000729-2
+Pentland Road,PENTLAND ROAD WINDFARM LIMITED,Stornoway GSP,2,0.0,4.2,18.0,2030-12-31,Under Construction/Commissioning,,SHET,Wind Onshore,a0l4L0000005iUkQAI,PRO-000361-2
+Persley BESS,ANESCO LIMITED,Persley 132/33kV GSP Substation,,0.0,63.3,63.3,2027-07-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iWhQAI,PRO-002445
+Pitscandly Farm PV,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,4.13,0.0,4.13,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijlQAA,PRO-001226
+Port Ann GSP,Scottish Hydro Electric Power Distribution Plc,Port Ann GSP,,0.0,1.5,1.5,2027-04-30,Scoping,,SHET,Demand;Tidal,a0l8e000000TPPrAAO,PRO-003344
+Rigifa BESS SEL,SE RIGIFA BESS LTD,Redmoss GSP,,0.0,40.0,40.0,2026-03-31,Scoping,,SHET,Energy Storage System,a0l8e0000012jPNAAY,PRO-004672
+Riverside Bungalow Farm,QAIR RENEWABLES UK LIMITED,Blackhillock 2 400/33kV GSP Substation,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e000001HoYZAA0,PRO-004082
+Rothes III Wind Farm,ROTHES III LIMITED,Dallas GSP,,0.0,23.0,23.0,2028-06-30,Scoping,,SHET,Wind Onshore,a0l4L0000005iQkQAI,PRO-000900
+Rothienorman 3 BESS,ANESCO LIMITED,Rothienorman 2 400/33KV GSP Substation,,0.0,66.0,66.0,2030-06-30,Scoping,,SHET,Energy Storage System,a0l8e000001HxLTAA0,PRO-004236
+Sauchentree PV and BESS,GREENTECH PROJECTS HOLDING UK LIMITED,Fraserburgh 2 132/33kV,,0.0,60.0,60.0,2033-10-30,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000POgKIAW,PRO-006076
+South Esk Solar Farm,Scottish Hydro Electric Power Distribution Plc,Bridge of Dun GSP,,0.0,9.9,9.9,2026-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijpQAA,PRO-001222
+Speyslaw,SPEYSLAW SOLAR LIMITED,Elgin GSP,,0.0,20.0,20.0,2027-07-01,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PDvAIAW,PRO-005068
+Speyslaw Solar,SPEYSLAW SOLAR LIMITED,Elgin GSP,,0.0,20.0,20.0,2025-06-30,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iQ2QAI,PRO-001278
+St Fergus Energy Park,Scottish Hydro Electric Power Distribution Plc,St Fergus Gas GSP,,0.0,9.7,9.7,2023-09-08,Consents Approved,,SHET,PV Array (Photo Voltaic/solar);Wind Onshore,a0l4L0000005ibvQAA,PRO-001449
+Standingfauld Farm PV,Scottish Hydro Electric Power Distribution Plc,Braco West GSP,,0.0,9.9,9.9,2022-09-30,Under Construction/Commissioning,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iZHQAY,PRO-001379
+Stornoway (Battery Point),Scottish Hydro Electric Power Distribution Plc,Stornoway GSP,,22.3,0.0,22.3,,Built,,SHET,Thermal,a0l4L0000005iTBQAY,PRO-000998
+Tacher Wind,Clean Earth Energy Limited,Mybster 1 132/33kV Substation,1,0.0,9.99,9.99,2025-08-31,Scoping,,SHET,Wind Onshore,a0l8e0000010wgZAAQ,PRO-002769-1
+Tacher Wind,Clean Earth Energy Limited,Mybster 1 132/33kV Substation,2,0.0,2.91,12.9,2030-08-31,Scoping,,SHET,Wind Onshore,a0l8e0000010wgZAAQ,PRO-002769-2
+Three Lochs Hydro,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,0.0,2.0,2.0,2024-06-30,Consents Approved,,SHET,Hydro,a0l4L0000005if5QAA,PRO-000716
+Toftinghall 2 BESS,TOFTINGALL WIND LIMITED,Mybster 2 132/33kV Substation,,0.0,21.0,21.0,2030-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000011z1sAAA,PRO-003563
+Tummel Bridge,SSE GENERATION LIMITED,Errochty 132/33kV Substation,2,0.0,6.46,40.46,2026-08-14,Scoping,,SHET,Hydro,a0l4L0000005iSxQAI,PRO-000949-2
+Water Treatment Works - Glendevon,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,0.0,0.19,0.19,2024-09-30,Scoping,,SHET,Hydro;PV Array (Photo Voltaic/solar),a0l8e000000ewP7AAI,PRO-003663
+Wellbank Solar Farm,GREENTECH PROJECTS HOLDING UK LIMITED,Milton of Craigie 132/33kV Grid Supply Point Substation,,0.0,25.0,25.0,2024-03-01,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iXaQAI,PRO-002101
+West Gourdie Battery,FS WEST GOURDIE LIMITED,Charleston GSP,,49.9,0.0,49.9,,Built,,SHET,Energy Storage System,a0l4L0000005iTJQAY,PRO-001376
+West Pitnacree Solar,GREENTECH PROJECTS HOLDING UK LIMITED,Coupar Angus 2 GSP,,0.0,49.8,49.8,2031-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e000001HoGCAA0,PRO-004066
+Wheedlemont,Scottish Hydro Electric Power Distribution Plc,Keith GSP,,1.7,0.0,1.7,,Built,,SHET,Wind Onshore,a0l4L0000005ifBQAQ,PRO-000710
+180/181 Clynelish Muir BESS,Opdenergy UK 19 Limited,BRORA 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,50.0,50.0,2030-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000011zr5AAA,PRO-003597
+Acharn Biomass Generating Station,Scottish Hydro Electric Power Distribution Plc,Killin GSP,,5.6,0.0,5.6,,Built,,SHET,Biomass,a0l4L0000005iqZQAQ,PRO-000615
+Allt Ladaidh Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Fort Augustus GSP,,1.35,0.0,1.35,,Built,,SHET,Hydro,a0l4L0000005iqdQAA,PRO-000611
+Allt Na Moine Generating Station,Scottish Hydro Electric Power Distribution Plc,Broadford GSP,,0.0,1.99,1.99,2028-04-16,Consents Approved,,SHET,Hydro,a0l4L0000005iqpQAA,PRO-000609
+Baldovie EfW,Scottish Hydro Electric Power Distribution Plc,Milton of Craigie GSP,,10.0,0.0,10.0,,Built,,SHET,Waste,a0l4L0000005ir0QAA,PRO-000598
+Ardverikie and Corrour Estate Hydro,Scottish Hydro Electric Power Distribution Plc,Boat of Garten GSP,,8.6,0.0,8.6,,Built,,SHET,Hydro,a0l4L0000005iqtQAA,PRO-000605
+Auchadaduie Wind Farm,Scottish Hydro Electric Power Distribution Plc,Carradale 1 GSP,,6.9,0.0,6.9,,Built,,SHET,Wind Onshore,a0l4L0000005iSnQAI,PRO-001340
+Balgowan Solar and BESS,GREENTECH PROJECTS HOLDING UK LIMITED,Burghmuir 2 400/33kV Grid Supply Point Substation,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000blnGIAQ,PRO-004949
+Ballochy Solar Farm GSK,GLAXO OPERATIONS LTD,Bridge of Dun GSP,,0.0,18.0,18.0,2032-06-30,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000f8PnAAI,PRO-004033
+Balmachie Farm,GREENTECH PROJECTS HOLDING UK LIMITED,Arbroath GSP,,0.0,30.0,30.0,2033-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PF3nIAG,PRO-005860
+Balnacraig Battery Storage,BALNACRAIG BATTERY STORAGE LIMITED,Alness 132/33kV Substation,,0.0,49.9,49.9,2026-08-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iWnQAI,PRO-002244
+Barachander Wind Farm,GreenPower (Barachander) Ltd,TAYNUILT 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,66.0,66.0,2034-10-31,Scoping,,SHET,Wind Onshore,a0l8e000000f6u1AAA,PRO-003991
+Barr River Hydro,Scottish Hydro Electric Power Distribution Plc,Fort William GSP,,1.6,0.0,1.6,,Built,,SHET,Hydro,a0l4L0000005iT8QAI,PRO-001001
+Beinn Thulabaigh Wind,Scottish Hydro Electric Power Distribution Plc,Stornoway GSP,,0.0,6.0,6.0,2033-10-31,Scoping,,SHET,Wind Onshore,a0l4L0000005ir1QAA,PRO-000597
+Berryhill Solar Farm,BERRYHILL SOLAR FARM LIMITED,Charleston GSP 132/33kV,,0.0,45.0,45.0,2027-07-31,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iTuQAI,PRO-001679
+Bettyhill Phase 2 Wind Farm,Bettyhill 2 Wind Ltd,Dounreay 132/33kV,,0.0,48.0,48.0,2027-11-01,Consents Approved,,SHET,Wind Onshore,a0l4L0000005iTcQAI,PRO-002001
+Bettyhill Wind Farm Add Cap,Scottish Hydro Electric Power Distribution Plc,Mybster 132/33kV Substation,,1.0,0.0,1.0,,Built,,SHET,Wind Onshore,a0l4L0000005iP8QAI,PRO-001613
+Beyside Portgordons Ltd Generation Station,Scottish Hydro Electric Power Distribution Plc,Keith 1 132/33kV GSP Substation,,0.0,1.07,1.07,2024-03-31,Scoping,,SHET,CCGT (Combined Cycle Gas Turbine),a0l4L0000005iQTQAY,PRO-001886
+BLINDWELLS FARM BESS,Opdenergy UK 9 Limited,Arbroath GSP,,0.0,50.0,50.0,2032-06-30,Awaiting Consents,,SHET,Energy Storage System,a0l4L0000005jAMQAY,PRO-002534
+Boyndie Solar,GREENTECH PROJECTS HOLDING UK LIMITED,MacDuff 132/33kV GSP Substation,,0.0,69.9,69.9,2029-09-30,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e000000f7CXAAY,PRO-004006
+Boyndie Wind,BOYNDIE WIND ENERGY LIMITED,Keith GSP,,21.0,0.0,21.0,,Built,,SHET,Wind Onshore,a0l4L0000005iPnQAI,PRO-000873
+Broomhill Battery Energy Storage,GIGABOX NO 5 LIMITED,Kintore GSP,,0.0,49.9,49.9,2026-11-30,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iPJQAY,PRO-001853
+Brotherton Wind Farm,Scottish Hydro Electric Power Distribution Plc,Fiddes GSP,,4.6,0.0,4.6,,Built,,SHET,Wind Onshore,a0l4L0000005iSoQAI,PRO-001341
+Burghmuir BESS,YLEM Energy Limited,Burghmuir 2 400/33kV GSP,,0.0,50.5,50.5,2033-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000bltjIAA,PRO-004978
+Burnside Farm PV,ELGIN ENERGY ES CO LIMITED,Tarland 132/33kV GSP Substation,,0.0,32.58,32.58,2032-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000f6yVAAQ,PRO-003994
+Cairnbrogie Wind Farm,Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,0.0,4.5,4.5,2025-01-01,Scoping,,SHET,Wind Onshore,a0l4L0000005irQQAQ,PRO-000586
+Cairnmore PH3 Wind Farm,Scottish Hydro Electric Power Distribution Plc,Tarland GSP,,2.55,0.0,2.55,,Built,,SHET,Wind Onshore,a0l4L0000005irRQAQ,PRO-000585
+Carey Farm PV,Scottish Hydro Electric Power Distribution Plc,Abernethy GSP,,0.0,9.9,9.9,2024-05-31,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iiTQAQ,PRO-001170
+Causeymire,CAUSEYMIRE WINDFARM LIMITED,Mybster 1 GSP,,48.3,0.0,48.3,,Built,,SHET,Wind Onshore,a0l4L0000005iWHQAY,PRO-000294
+Charleston GSP (James Hutton Institute PV),Scottish Hydro Electric Power Distribution Plc,Charleston GSP,,0.0,0.75,0.75,2031-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000010xfBAAQ,PRO-003074
+Charleston Solar PV,Sonnedix Weston Limited,Charleston GSP 132/33kV,,0.0,20.0,20.0,2027-03-30,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iUhQAI,PRO-002333
+Cordon Farm BESS,ELGIN ENERGY ES CO LIMITED,Abernethy GSP,,0.0,30.0,30.0,2033-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000PDmVIAW,PRO-005011
+Corrimony,CORRIMONY ENERGY LIMITED,Fasnakyle GSP,,11.5,0.0,11.5,,Built,,SHET,Wind Onshore,a0l4L0000005iRHQAY,PRO-001307
+Coulterfanny PV,Scottish Hydro Electric Power Distribution Plc,Strichen GSP,,0.0,0.17,0.17,2025-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e0000010wbtAAA,PRO-002716
+Cruach Glenamachrie Wind Farm,VOLTALIA UK LTD,Taynuilt GSP,,0.0,50.0,50.0,2034-10-31,Awaiting Consents,,SHET,Wind Onshore,a0l4L0000005iXrQAI,PRO-002369
+DAVIDSON FARM PV AND BESS (PHASE 2),IG RENEWABLE ENERGY UK LTD,Keith 3 GSP,,0.0,45.0,45.0,2035-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PEb3IAG,PRO-005809
+Dragonhall Farm PV,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,5.0,0.0,5.0,,Built,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ibjQAA,PRO-001432
+Dunoon Energy Storage,FLEXION ENERGY UK STORAGE LTD,Dunoon 132/33kV GSP Substation,,0.0,45.0,45.0,2026-06-30,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iWpQAI,PRO-002263
+Dupplin Solar,TRIO POWER LIMITED,Burghmuir GSP,,0.0,75.0,75.0,2035-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000POjjIAG,PRO-006116
+Fairburn Wind Farm,SSE GENERATION LIMITED,Orrin (Fairburn) GSP,,40.0,0.0,40.0,,Built,,SHET,Wind Onshore,a0l4L0000005iRpQAI,PRO-000931
+Edintore Wind Farm,EDINTORE WIND FARM LIMITED,Keith GSP,,20.4,0.0,20.4,,Built,,SHET,Wind Onshore,a0l4L0000005iRhQAI,PRO-000939
+Feddal Estate,Scottish Hydro Electric Power Distribution Plc,Braco West GSP,,0.0,9.99,9.99,2024-01-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005irnQAA,PRO-000642
+Field Auchteraw,FIELD AUCHTERAW LTD.,Fort Augustus GSP,,0.0,49.9,49.9,2022-12-31,Consents Approved,,SHET,Energy Storage System,a0l8e0000010wUvAAI,PRO-002640
+Forfar Solar - DNO,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,27.8,27.8,2025-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iUcQAI,PRO-002444
+Fraserburgh Energy Storage,FLEXION ENERGY UK STORAGE LTD,Fraserburgh 132/33kV GSP Substation,,0.0,40.0,40.0,2027-10-31,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iXYQAY,PRO-002258
+Gawnsmoss Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Macduff GSP,,2.4,0.0,2.4,,Built,,SHET,Wind Onshore,a0l4L0000005iryQAA,PRO-000636
+Geiselittle BESS,The Energy Workshop Limited,THURSO 2 275/33KV GRID SUPPLY POINT SUBSTATION,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012fGRAAY,PRO-004397
+Girlsta,WIND 2 LIMITED,Gremista GSP,,0.0,18.0,18.0,2029-09-30,Scoping,,SHET,Energy Storage System;Wind Onshore,a0lJ9000000blQ0IAI,PRO-004869
+Golticlay Extension Wind Farm,RWE RENEWABLES UK SWINDON LIMITED,Mybster 2 132/33kV Substation,,0.0,55.0,55.0,2027-09-30,Scoping,,SHET,Wind Onshore,a0l4L0000005iRuQAI,PRO-000926
+Golticlay Wind Farm,RWE Renewables UK Onshore Wind Limited,Mybster 1 132/33kV Substation,2,0.0,7.93,58.0,2026-07-31,Scoping,,SHET,Wind Onshore,a0l4L0000005iUnQAI,PRO-000370-2
+Goval BESS,SE Goval BESS Ltd,Dyce 132/33kV GSP,,0.0,33.0,33.0,2026-06-30,Scoping,,SHET,Energy Storage System,a0l8e000000TPIMAA4,PRO-003245
+Gowanfold Wind Generating Station,Scottish Hydro Electric Power Distribution Plc,Fraserburgh GSP,,1.6,0.0,1.6,,Built,,SHET,Wind Onshore,a0l4L0000005is8QAA,PRO-000626
+Greentoft Farm,Neven Point Wind Limited,Eday 132/33kV GSP Substation,,0.0,25.0,25.0,2033-10-31,Scoping,,SHET,Wind Onshore,a0l8e000000evlCAAQ,PRO-003640
+Grudie Bridge,SSE GENERATION LIMITED,Grudie Bridge GSP,,18.7,0.0,18.7,,Built,,SHET,Hydro,a0l4L0000005iQnQAI,PRO-000879
+Hallyburton (2),Balance Power Projects Limited,Coupar Angus 2 GSP,,0.0,49.9,49.9,2029-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000f69mAAA,PRO-003959
+Hill of Easterton,Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,2.3,0.0,2.3,,Built,,SHET,Wind Onshore,a0l4L0000005isXQAQ,PRO-000668
+Howmuir PV,Scottish Hydro Electric Power Distribution Plc,Lunanhead GSP,,0.0,5.0,5.0,2021-11-30,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005ijdQAA,PRO-001234
+Inverawe,SSE GENERATION LIMITED,Taynuilt GSP,,25.0,0.0,25.0,,Built,,SHET,Hydro,a0l4L0000005iReQAI,PRO-000882
+Keith BESS,ANESCO LIMITED,Blackhillock 2 400/33KV Grid Supply Point Substation,,0.0,50.0,50.0,2033-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012g8HAAQ,PRO-004399
+Kiachnish Hydro,Scottish Hydro Electric Power Distribution Plc,Fort William GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005icLQAQ,PRO-000698
+Killin Farm BESS,Opdenergy UK 13 Limited,KILLIN 132/33KV GRID SUPPLY POINT SUBSTATION,,0.0,49.4,49.4,2028-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000PdLMIA0,PRO-006761
+Kinlochleven,KINLOCHLEVEN POWER LTD,Kinlochleven GSP,,26.0,0.0,26.0,,Built,,SHET,Hydro,a0l4L0000005iQwQAI,PRO-000889
+Kinnordy Estate Solar -Wind - Battery,BSR APPLICATIONS LIMITED,Lunanhead 2 GSP,,0.0,60.0,60.0,2032-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar);Wind Onshore,a0lJ9000000bluNIAQ,PRO-004986
+Kintore GSP (DNO),Scottish Hydro Electric Power Distribution Plc,Kintore GSP,,0.0,0.15,0.15,2023-11-30,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e0000010wRmAAI,PRO-002603
+Kirkton BESS,MESPIL SOLAR ENERGY LIMITED,Kintore GSP,,0.0,40.0,40.0,2035-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000PMNWIA4,PRO-005944
+Kirkton Solar PV,EEB 19 LIMITED,Peterhead Grange 132kV,,0.0,35.0,35.0,2024-03-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iQIQAY,PRO-001262
+Lairg BESS,OPDE UK LIMITED,Lairg II Wind Farm 132/33kV Substation,,0.0,50.0,50.0,2032-10-31,Scoping,,SHET,Energy Storage System,a0l8e0000012eeGAAQ,PRO-004372
+Land at Kinnell Solar Farm,Scottish Hydro Electric Power Distribution Plc,Bridge of Dun GSP,,0.0,9.45,9.45,2032-06-30,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0l8e000000f4mgAAA,PRO-003864
+Lerwick A,SSE GENERATION LIMITED,Shetland GSP (132kV),,28.0,0.0,28.0,,Built,,SHET,Thermal,a0l4L0000005iRmQAI,PRO-000934
+Loch A Bhraoin,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,2.0,0.0,2.0,,Built,,SHET,Hydro,a0l4L0000005icVQAQ,PRO-000688
+Loch Etive Hydro,Scottish Hydro Electric Power Distribution Plc,Taynuilt GSP,,6.8,0.0,6.8,,Built,,SHET,Hydro,a0l4L0000005icXQAQ,PRO-000686
+Lochaber Smelter,SIMEC LOCHABER HYDROPOWER 2 LIMITED,Fort William GSP,1,28.1,0.0,28.1,,Built,,SHET,Hydro,a0l4L0000005iQ6QAI,PRO-001274-1
+Lochgreens BESS,ELGIN ENERGY ES CO LIMITED,Dyce 132/33kV GSP,,0.0,49.9,49.9,2028-07-31,Scoping,,SHET,Energy Storage System,a0l8e0000012kkWAAQ,PRO-004764
+Lunanhead Battery,LUNANHEAD ENERGY STORAGE LIMITED,Lunanhead GSP,,0.0,49.9,49.9,2026-09-30,Consents Approved,,SHET,Energy Storage System,a0l4L0000005iWdQAI,PRO-000883
+Lunanhead Solar Park,SUTTIESIDE ENERGY LIMITED,Lunanhead GSP,,0.0,21.8,21.8,2026-10-31,Consents Approved,,SHET,PV Array (Photo Voltaic/solar),a0l4L0000005iNSQAY,PRO-001623
+Lundie Hybrid Energy Park (Ledyatt Farm),Arm Dev Energy Ltd,Coupar Angus 2 GSP,,0.0,50.0,50.0,2031-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar);Wind Onshore,a0lJ9000000blYvIAI,PRO-004883
+Lurg Hill,LURG HILL WIND FARM LIMITED,Keith 1 132/33kV GSP Substation,,0.0,15.0,15.0,2024-05-01,Consents Approved,,SHET,Wind Onshore,a0l4L0000005iQGQAY,PRO-001264
+Meadaple Wind Farm,Scottish Hydro Electric Power Distribution Plc,Rothienorman GSP,,0.0,4.3,4.3,2021-06-01,Consents Approved,,SHET,Wind Onshore,a0l4L0000005idtQAA,PRO-000677
+Mid Hill Wind,MID HILL WIND LIMITED,Mid Hill GSP,,75.0,0.0,75.0,,Built,,SHET,Wind Onshore,a0l4L0000005iWJQAY,PRO-000296
+Novar,BEAUFORT WIND LIMITED,Alness GSP,,18.5,0.0,18.5,,Built,,SHET,Wind Onshore,a0l4L0000005iPgQAI,PRO-000850
+Orkney Community Wind Farm - Faray,Orkney Islands Council,Eday GSP,,0.0,30.0,30.0,2030-05-30,Scoping,,SHET,Wind Onshore,a0l8e000000ewYaAAI,PRO-003674
+Orkney community wind farm - Quanterness,Orkney Islands Council,Finstown GSP,,0.0,30.0,30.0,2028-06-30,Scoping,,SHET,Wind Onshore,a0l8e0000010xfVAAQ,PRO-003078
+Packhouse Solar,Scottish Hydro Electric Power Distribution Plc,Arbroath GSP,,0.0,0.18,0.18,2023-02-28,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e000000f4mqAAA,PRO-003866
+PM AB Energy Storage,CBS ENERGY STORAGE ASSETS UK LIMITED,Abernethy GSP,,0.0,49.9,49.9,2026-10-31,Scoping,,SHET,Energy Storage System,a0l4L0000005iXHQAY,PRO-002140
+Rannoch,SSE GENERATION LIMITED,Rannoch GSP,,44.0,0.0,44.0,,Built,,SHET,Hydro,a0l4L0000005iRrQAI,PRO-000929
+Rothes (Cairn Uish) Wind Farm,ROTHES WIND LIMITED,Dallas GSP,,50.6,0.0,50.6,,Built,,SHET,Wind Onshore,a0l4L0000005iPpQAI,PRO-000871
+Seggiecrook PV and BESS,GREENTECH PROJECTS HOLDING UK LIMITED,Blackhillock 2 400/33KV Grid Supply Point Substation,,0.0,66.32,66.32,2035-10-31,Scoping,,SHET,Energy Storage System;PV Array (Photo Voltaic/solar),a0lJ9000000POgAIAW,PRO-006074
+Speyside CHP,SPEYSIDE RENEWABLE ENERGY PARTNERSHIP LIMITED,Keith GSP,,15.0,0.0,15.0,,Built,,SHET,CHP (Combined Heat and Power),a0l4L0000005iQFQAY,PRO-001265
+Srondoire,Scottish Hydro Electric Power Distribution Plc,Port Ann GSP,,5.9,0.0,5.9,,Built,,SHET,Wind Onshore,a0l4L0000005ieBQAQ,PRO-000721
+St Fergus Moss,Scottish Hydro Electric Power Distribution Plc,St Fergus Gas GSP,,6.9,0.0,6.9,,Built,,SHET,Wind Onshore,a0l4L0000005iU8QAI,PRO-001549
+Strichen GSP,Scottish Hydro Electric Power Distribution Plc,Strichen 132/33kV GSP Substation,,0.0,0.25,0.25,2025-10-31,Scoping,,SHET,Energy Storage System,a0l8e000000TPBaAAO,PRO-003183
+Stroupster Wind Farm,STROUPSTER CAITHNESS WIND FARM LIMITED,Thurso GSP,,30.0,0.0,30.0,,Built,,SHET,Wind Onshore,a0l4L0000005iRKQAY,PRO-001305
+Taodail Hydro,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,1.35,0.0,1.35,,Built,,SHET,Hydro,a0l4L0000005if4QAA,PRO-000717
+Tummel Bridge,SSE GENERATION LIMITED,Errochty 132/33kV Substation,1,34.0,0.0,34.0,,Built,,SHET,Hydro,a0l4L0000005iSxQAI,PRO-000949-1
+Tyrie Mains PV,Scottish Hydro Electric Power Distribution Plc,Fraserburgh GSP,,0.0,0.17,0.17,2025-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e0000010wc3AAA,PRO-002717
+Upper Westown BESS Farm,QAIR RENEWABLES UK LIMITED,Fiddes 2 132/33kV GSP Substation,,0.0,49.9,49.9,2033-10-31,Scoping,,SHET,Energy Storage System,a0lJ9000000bluIIAQ,PRO-004985
+West Balgersho Farm,Scottish Hydro Electric Power Distribution Plc,Coupar Angus 132/33kV GSP,,0.0,9.9,9.9,2029-10-31,Scoping,,SHET,PV Array (Photo Voltaic/solar),a0l8e0000010waqAAA,PRO-002705
+Wyvis Hydro Generating Station,Scottish Hydro Electric Power Distribution Plc,Grudie Bridge GSP,,3.9,0.0,3.9,,Built,,SHET,Hydro,a0l4L0000005ifCQAQ,PRO-000709
+Zenobe Shetland BESS,ZENOBE SHETLAND LIMITED,Gremista GSP,,0.0,68.0,68.0,2025-11-07,Scoping,,SHET,Energy Storage System,a0l8e0000010x0UAAQ,PRO-003036
