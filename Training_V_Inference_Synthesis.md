@@ -18,6 +18,18 @@ Every table below is marked per-row with which status applies.
 
 ---
 
+## A Standing Caveat Neither Archetype Resolves: Will UK AI Training Happen At All?
+
+NESO's own demand-forecasting team has stated, in direct correspondence held privately, that as a rule they forecast little AI training taking place in the UK, citing high UK energy prices as the reason — not a grid-constraint or siting reason. This sits underneath Stage 5's entire training archetype: if it's right, the archetype describes an economically marginal opportunity (Stage 5's own hedged 8.6–18.7yr payback, resting partly on a PROVISIONAL TNUoS figure) that few developers may build toward in the first place, for reasons upstream of anything modelled in Stages 1–6.
+
+A companion evidence-log-verified study (`siting-study/`) checked this directly against the real Scottish pipeline: of 23 verified AI/data-centre projects, 91%+ sit south of the B4 transmission boundary — away from the country's most curtailed wind assets — and developer-stated siting rationales are curtailment-blind across the board, none of them mentioning curtailment at all. Read together with NESO's statement, the honest picture is: **this is a genuine, currently-unrealised policy opportunity, not a trend already underway, and not something the market has evaluated and rejected.** Whether that's because developers haven't looked, or because they've quietly priced in the same energy-cost skepticism NESO states, is not resolved by either project — flagged as open rather than guessed at.
+
+A real, if modest, counter-pressure exists: the UK government's November 2025 "Delivering AI Growth Zones" policy offers a system-charge discount (up to £24/MWh for a 500MW Scottish site) specifically for this scenario. NESO's own public Future Energy Scenarios and Data Centres documents showed no sign of this being priced into the "little training" forecast as of the last check — worth revisiting if that's ever confirmed directly with NESO.
+
+*Full detail and sourcing: `siting-study/evidence-log.md` (entries EC-06 through EC-10) and `siting-study/README.md`.*
+
+---
+
 ## The Two Archetypes at a Glance
 
 | | Stage 5: Training | Stage 6: Inference | Status |

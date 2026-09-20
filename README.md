@@ -35,8 +35,9 @@ While the constraint-direction framework is globally applicable, Scotland serves
 - **Stage 4: Grounded Merchant Stacking** – Replaced "sum-of-parts" financial assumptions with observed Modo Energy blended benchmarks (£41k–£73k/MW/year). Forced explicit declaration of the AI constraint commercial mechanism, revealing a realistic 8.6–18.7 year payback depending on market conditions and contract structures.
 - **Stage 5: Behind-the-Meter Structural Limits** – Sourced real SSEN SHEPD tariffs to prove DUoS peak-shaving value is structurally limited at hyperscale voltages (£1.58/MWh differential). Identified the TNUoS ASC Band Step as the dominant (£1.8M/yr, PROVISIONAL) but contingent value driver. Wholesale peak-shaving is constrained by battery duration and price volatility, not load/price overlap — the site's baseline load always exceeds battery capacity, so the battery can shave any price peak regardless of whether a training spike is running.
 - **Stage 6: The Inference Archetype** – Paired Stage 5's training site with its structural opposite: a 5MW inference site at HV in the Central Belt. Found DUoS value runs in the *opposite* direction from Stage 5 — 27.6× larger, not smaller, at the lower voltage tier (£43.67/MWh differential). Tested Ofgem's proposed data centre commitment fee against Ofgem's own queue capex data and found it holds up. Identified a coordination gap between Ofgem's viability-focused *Curate* reforms and its emerging *Connect Operate* flexibility workstream — arguably the stage's most useful contribution to the live consultation. Full detail in [`stage6/`](./stage6/).
+- **Siting Study: Does the Pipeline Actually Go Where Curtailment Is?** – A companion study, evidence-log verified rather than economically modelled: checks whether Scotland's real 23-project AI/data-centre pipeline is actually sited where curtailment absorption would work, geographically. Finds 91%+ of proposed capacity south of the B4 transmission boundary, while the most-curtailed wind assets sit north of it — only partly explained by land availability, and less so for farmland sites than for brownfield reuse. Complements the Stage 1–6 economic modelling with a check on whether the sector is behaving as the economics would predict. Full detail in [`siting-study/`](./siting-study/).
 
-*For full Stage 1–5 methodology, data sources, sensitivity analysis, and the complete adversarial review log, see: `PROJECT.md` and `docs/adversarial_review_log.md`. Stage 6 is documented separately — see [`stage6/README.md`](./stage6/README.md) for the narrative summary and [`stage6/STAGE6_SYNTHESIS.md`](./stage6/STAGE6_SYNTHESIS.md) for the full working record, including every correction made along the way.*
+*For full Stage 1–5 methodology, data sources, sensitivity analysis, and the complete adversarial review log, see: `PROJECT.md` and `docs/adversarial_review_log.md`. Stage 6 is documented separately — see [`stage6/README.md`](./stage6/README.md) for the narrative summary and [`stage6/STAGE6_SYNTHESIS.md`](./stage6/STAGE6_SYNTHESIS.md) for the full working record, including every correction made along the way. The siting study is documented separately again — see [`siting-study/README.md`](./siting-study/README.md).*
 
 ---
 
@@ -47,6 +48,8 @@ This is a grid-constraint framework, not a comprehensive siting model. It explic
 - Community acceptance or local planning risk.
 
 Stages 5 and 6 are **paired archetype studies**, not a survey of Scottish data centres — one hyperscale training site, one smaller inference site, chosen because they sit at opposite ends of the axes that matter (workload type, connection voltage, constraint direction), not because either is statistically representative of the full range of proposed developments.
+
+Neither archetype resolves whether UK AI training happens at scale at all — NESO's own forecaster states, as a rule, that little is expected here due to high energy prices. See [`Training_V_Inference_Synthesis.md`](./Training_V_Inference_Synthesis.md) and [`siting-study/`](./siting-study/) for that caveat and a direct, evidence-verified check against the real pipeline.
 
 Furthermore, this framework enforces strict **modelling discipline** to prevent "finance-bro" double-counting:
 - **No Sum-of-Parts Fantasy:** Baseline revenues use observed, blended market actuals, not theoretical maximums of stacked products.
@@ -67,6 +70,7 @@ This repository is structured to separate the *invitation* from the *specificati
 - **`notebooks/`**: Executable analytical workflows and publication-ready visualizations (e.g., `06_hybrid_ai_battery_response.ipynb`, `08_stage4_merchant_stacking_synthesis.ipynb`, `09_stage5_behind_the_meter_synthesis.ipynb`).
 - **`figures/`**: Tufte-compliant visualisations of empirical findings, economic verdicts, and value stack breakdowns.
 - **`stage6/`**: Self-contained module for the inference-archetype study — narrative `README.md`, full working record (`STAGE6_SYNTHESIS.md`), its own `scripts/`, `notebooks/`, and `figures/`. Kept separate from the Stage 1–5 flat structure above because Stage 6 targets a live, time-boxed consultation response rather than the ongoing programme documents.
+- **`siting-study/`**: Self-contained companion study on real-world pipeline siting vs curtailment geography — evidence-log methodology rather than economic modelling. See its own `README.md`.
 
 ---
 
